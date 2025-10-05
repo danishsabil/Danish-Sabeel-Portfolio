@@ -1,0 +1,74 @@
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import { ThemeProvider } from "next-themes"
+import "./globals.css"
+
+const inter = Inter({ subsets: ["latin"] })
+
+export const metadata: Metadata = {
+  title: {
+    default: "Danish Sabeel - Portfolio",
+    template: "%s | Danish Sabeel"
+  },
+  description: "Assistant PM specializing in Facades & Curtain Walls. Explore my professional journey through interactive experience cards.",
+  keywords: ["portfolio", "project management", "facades", "curtain walls", "construction", "engineering"],
+  authors: [{ name: "Danish Sabeel" }],
+  creator: "Danish Sabeel",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://your-domain.com",
+    title: "Danish Sabeel - Portfolio",
+    description: "Assistant PM specializing in Facades & Curtain Walls. Explore my professional journey through interactive experience cards.",
+    siteName: "Danish Sabeel Portfolio",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop&crop=face",
+        width: 1200,
+        height: 630,
+        alt: "Danish Sabeel - Portfolio"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Danish Sabeel - Portfolio",
+    description: "Assistant PM specializing in Facades & Curtain Walls. Explore my professional journey through interactive experience cards.",
+    images: ["https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop&crop=face"]
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "your-google-verification-code",
+  }
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange={false}
+        >
+          {children}
+        </ThemeProvider>
+      </body>
+    </html>
+  )
+}

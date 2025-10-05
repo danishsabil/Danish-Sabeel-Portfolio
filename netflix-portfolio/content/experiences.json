@@ -1,0 +1,133 @@
+{
+  "owner": {
+    "name": "Danish Sabeel",
+    "tagline": "Assistant PM • Facades & Curtain Walls",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+  },
+  "experiences": [
+    {
+      "slug": "island-exterior-fabricators",
+      "title": "Island Exterior Fabricators",
+      "role": "Assistant Project Manager",
+      "period": "2024 — Present",
+      "location": "Boston, MA",
+      "poster": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=300&h=400&fit=crop",
+      "backdrop": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=1080&fit=crop",
+      "logo": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=200&h=200&fit=crop",
+      "summary": "Managed curtain‑wall packages (EWA‑2/3/5), vendor coordination, RFIs/COs, schedule and material tracking.",
+      "skills": ["Project Management", "Curtain Wall", "MS Project", "Excel Automation", "Stakeholder Comms"],
+      "links": [
+        {"label": "Company", "href": "https://example.com"}
+      ],
+      "episodes": [
+        {
+          "title": "Sill‑Trim Rollout (EWA‑2/3/5)",
+          "thumb": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=225&fit=crop",
+          "description": "Devised progress tracker; achieved 100% on EWA‑5; added variance metrics.",
+          "metrics": [
+            {"label": "Budget Saved", "value": "$250k"},
+            {"label": "Accuracy", "value": "+15%"}
+          ]
+        },
+        {
+          "title": "Heat‑Strengthening Test (26F)",
+          "thumb": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=225&fit=crop",
+          "description": "EDTM SG2700 tests across 5 panels; reporting & photo/video log.",
+          "metrics": [
+            {"label": "Panels", "value": "5"}
+          ]
+        },
+        {
+          "title": "Vendor Coordination System",
+          "thumb": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=225&fit=crop",
+          "description": "Streamlined communication with 15+ vendors, reduced response time by 40%.",
+          "metrics": [
+            {"label": "Vendors", "value": "15+"},
+            {"label": "Response Time", "value": "-40%"}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tech-consulting-firm",
+      "title": "Tech Consulting Firm",
+      "role": "Senior Project Manager",
+      "period": "2022 — 2024",
+      "location": "San Francisco, CA",
+      "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=400&fit=crop",
+      "backdrop": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop",
+      "logo": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=200&h=200&fit=crop",
+      "summary": "Led digital transformation projects for Fortune 500 clients, managing cross-functional teams and delivering complex software solutions.",
+      "skills": ["Agile", "Scrum", "Team Leadership", "Client Relations", "Technical Architecture"],
+      "links": [
+        {"label": "Company", "href": "https://example.com"},
+        {"label": "Case Study", "href": "https://example.com/case"}
+      ],
+      "episodes": [
+        {
+          "title": "Enterprise Migration",
+          "thumb": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=225&fit=crop",
+          "description": "Led migration of legacy systems to cloud infrastructure for 50,000+ users.",
+          "metrics": [
+            {"label": "Users Migrated", "value": "50k+"},
+            {"label": "Downtime", "value": "<2hrs"}
+          ]
+        },
+        {
+          "title": "AI Integration Platform",
+          "thumb": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=225&fit=crop",
+          "description": "Developed AI-powered analytics platform reducing manual reporting by 80%.",
+          "metrics": [
+            {"label": "Efficiency Gain", "value": "80%"},
+            {"label": "Cost Savings", "value": "$2M"}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "startup-venture",
+      "title": "Startup Venture",
+      "role": "Co-Founder & CTO",
+      "period": "2020 — 2022",
+      "location": "Austin, TX",
+      "poster": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=300&h=400&fit=crop",
+      "backdrop": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1920&h=1080&fit=crop",
+      "logo": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&h=200&fit=crop",
+      "summary": "Co-founded and built a SaaS platform from concept to 10,000+ users, handling full-stack development and product strategy.",
+      "skills": ["Full-Stack Development", "Product Strategy", "Fundraising", "Team Building", "User Research"],
+      "links": [
+        {"label": "Product", "href": "https://example.com"},
+        {"label": "Demo", "href": "https://example.com/demo"}
+      ],
+      "episodes": [
+        {
+          "title": "MVP Development",
+          "thumb": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=225&fit=crop",
+          "description": "Built and launched MVP in 3 months, achieving product-market fit with 1,000 beta users.",
+          "metrics": [
+            {"label": "Development Time", "value": "3 months"},
+            {"label": "Beta Users", "value": "1,000"}
+          ]
+        },
+        {
+          "title": "Series A Fundraising",
+          "thumb": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=225&fit=crop",
+          "description": "Successfully raised $2M Series A funding from top-tier VCs.",
+          "metrics": [
+            {"label": "Funding Raised", "value": "$2M"},
+            {"label": "Valuation", "value": "$10M"}
+          ]
+        },
+        {
+          "title": "User Growth Campaign",
+          "thumb": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=225&fit=crop",
+          "description": "Implemented growth strategies resulting in 10x user acquisition.",
+          "metrics": [
+            {"label": "User Growth", "value": "10x"},
+            {"label": "Retention Rate", "value": "85%"}
+          ]
+        }
+      ]
+    }
+  ]
+}
