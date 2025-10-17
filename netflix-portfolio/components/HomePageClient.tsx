@@ -45,19 +45,58 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
               My <span className="text-gradient">Experience</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Explore my professional journey through interactive experience cards. 
-              Each card represents a unique chapter in my career, showcasing projects, 
-              achievements, and the skills I've developed along the way.
+              Delivering construction excellence through strategic project management, technical expertise, and collaborative leadership across residential and commercial sectors.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <div className="bg-rose-600/20 border border-rose-500/30 rounded-lg px-4 py-2">
-                <span className="text-rose-400 font-semibold">3+ Years Experience</span>
+            
+            {/* Professional Summary Metrics */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="text-center"
+              >
+                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">6+</div>
+                <div className="text-gray-300 text-sm">Years Experience</div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="text-center"
+              >
+                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">15+</div>
+                <div className="text-gray-300 text-sm">Projects Delivered</div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="text-center"
+              >
+                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">$60M+</div>
+                <div className="text-gray-300 text-sm">Project Value</div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                className="text-center"
+              >
+                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">2</div>
+                <div className="text-gray-300 text-sm">Markets (U.S. & India)</div>
+              </motion.div>
+            </div>
+            {/* TODO: Add Placeholder Reminders */}
+            <div className="bg-yellow-600/20 border border-yellow-500/30 rounded-lg p-4 mb-8">
+              <div className="flex items-center gap-2 text-yellow-400">
+                <span className="text-lg">📋</span>
+                <span className="font-semibold">Content Updates Needed:</span>
               </div>
-              <div className="bg-rose-600/20 border border-rose-500/30 rounded-lg px-4 py-2">
-                <span className="text-rose-400 font-semibold">15+ Projects</span>
-              </div>
-              <div className="bg-rose-600/20 border border-rose-500/30 rounded-lg px-4 py-2">
-                <span className="text-rose-400 font-semibold">$500k+ Saved</span>
+              <div className="text-yellow-300 text-sm mt-2">
+                • Add specific project achievements and metrics to each experience<br/>
+                • Include detailed project highlights and case studies<br/>
+                • Add visual project galleries and documentation
               </div>
             </div>
           </motion.div>

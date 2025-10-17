@@ -3,14 +3,13 @@
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Separator } from "@/components/ui/separator"
-import { Mail, Linkedin, Github, Twitter, MapPin, Phone } from "lucide-react"
+import { Mail, Linkedin, MapPin, Palette } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    { name: "About", href: "/" },
     { name: "Experience", href: "/experience" },
     { name: "Projects", href: "/projects" },
     { name: "Contact", href: "/contact" },
@@ -19,22 +18,17 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "LinkedIn",
-      href: "https://linkedin.com/in/danish-sabeel",
+      href: "https://www.linkedin.com/in/danishsabeel/",
       icon: Linkedin,
     },
     {
-      name: "GitHub",
-      href: "https://github.com/danish-sabeel",
-      icon: Github,
-    },
-    {
-      name: "Twitter",
-      href: "https://twitter.com/danish_sabeel",
-      icon: Twitter,
+      name: "Behance",
+      href: "https://www.behance.net/danishsabil",
+      icon: Palette,
     },
     {
       name: "Email",
-      href: "mailto:danish.sabeel@email.com",
+      href: "mailto:danishsabil@gmail.com",
       icon: Mail,
     },
   ]
@@ -69,8 +63,8 @@ export default function Footer() {
                 <span>Boston, MA</span>
               </div>
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <Mail className="w-4 h-4" />
+                <span>danishsabil@gmail.com</span>
               </div>
             </div>
           </motion.div>

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Separator } from "@/components/ui/separator"
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Send } from "lucide-react"
+import { Mail, MapPin, Linkedin, Send, Palette } from "lucide-react"
 import { useState } from "react"
 
 export default function ContactPage() {
@@ -36,14 +36,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      value: "danish.sabeel@email.com",
-      href: "mailto:danish.sabeel@email.com"
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "danishsabil@gmail.com",
+      href: "mailto:danishsabil@gmail.com"
     },
     {
       icon: MapPin,
@@ -57,20 +51,14 @@ export default function ContactPage() {
     {
       icon: Linkedin,
       name: "LinkedIn",
-      href: "https://linkedin.com/in/danish-sabeel",
+      href: "https://www.linkedin.com/in/danishsabeel/",
       color: "hover:text-blue-400"
     },
     {
-      icon: Github,
-      name: "GitHub",
-      href: "https://github.com/danish-sabeel",
-      color: "hover:text-gray-400"
-    },
-    {
-      icon: Twitter,
-      name: "Twitter",
-      href: "https://twitter.com/danish_sabeel",
-      color: "hover:text-blue-400"
+      icon: Palette,
+      name: "Behance",
+      href: "https://www.behance.net/danishsabil",
+      color: "hover:text-rose-400"
     }
   ]
 
@@ -280,14 +268,18 @@ export default function ContactPage() {
               with innovative solutions and expert project management.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button size="lg" className="bg-rose-600 hover:bg-rose-700 text-white">
-                <Mail className="w-4 h-4 mr-2" />
-                Schedule a Call
-              </Button>
-              <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10">
-                <Phone className="w-4 h-4 mr-2" />
-                Call Now
-              </Button>
+              <a href="mailto:danishsabil@gmail.com" className="inline-flex">
+                <Button size="lg" className="bg-rose-600 hover:bg-rose-700 text-white">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Send Email
+                </Button>
+              </a>
+              <a href="https://www.linkedin.com/in/danishsabeel/" target="_blank" rel="noopener" className="inline-flex">
+                <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10">
+                  <Linkedin className="w-4 h-4 mr-2" />
+                  Connect on LinkedIn
+                </Button>
+              </a>
             </div>
           </motion.div>
         </div>

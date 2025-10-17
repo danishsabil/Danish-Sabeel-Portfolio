@@ -1,0 +1,89 @@
+{
+  "projects": [
+    {
+      "id": "neu-expo",
+      "slug": "neu-expo-boston",
+      "title": "NEU EXPO",
+      "subtitle": "Northeastern University Exhibition Center",
+      "location": "Boston, MA",
+      "year": "2024",
+      "value": "$8.5M",
+      "category": "Curtain Wall",
+      "experienceSlug": "island-exterior-fabricators",
+      "status": "Ongoing",
+      "hero": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&h=600&fit=crop"
+      ],
+      "description": "Managing comprehensive curtain wall packages for Northeastern University's new Exhibition Center. This project involves coordinating EWA-2, EWA-3, and EWA-5 packages with complex unitized curtain wall systems featuring high-performance glazing and aluminum framing.",
+      "scope": "Complete facade package management including design-assist, procurement, fabrication coordination, and installation oversight for a 150,000 sq ft educational facility.",
+      "challenges": "Coordinating multiple curtain wall packages simultaneously while maintaining strict educational facility schedules and performance requirements. Managing complex logistics in dense urban Boston environment.",
+      "solutions": "Implemented digital tracking systems and AI-driven automation for material delivery coordination. Developed comprehensive progress trackers achieving 100% completion on EWA-5 with improved variance metrics.",
+      "specifications": {
+        "systemType": "Unitized Curtain Wall System",
+        "squareFootage": "45,000 sq ft of facade",
+        "materials": ["High-Performance Low-E Glass", "Thermally Broken Aluminum Framing", "Integrated Pressure Plates"]
+      },
+      "tags": ["Curtain Wall", "Educational", "Large Scale", "Urban Construction"]
+    },
+    {
+      "id": "fnb-tower",
+      "slug": "fnb-tower-pittsburgh",
+      "title": "FNB Tower",
+      "subtitle": "FNB Financial Center Tower",
+      "location": "Pittsburgh, PA",
+      "year": "2024",
+      "value": "$12.3M",
+      "category": "Curtain Wall",
+      "experienceSlug": "island-exterior-fabricators",
+      "status": "Ongoing",
+      "hero": "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&h=600&fit=crop"
+      ],
+      "description": "High-rise curtain wall installation for FNB Financial Center Tower in Pittsburgh's central business district. Managing stick-built and unitized glazing systems across 25 floors with advanced structural glazing techniques.",
+      "scope": "Full-scope curtain wall management including vendor coordination, RFI tracking, schedule management, and quality control for commercial high-rise office tower.",
+      "challenges": "High-rise installation logistics, wind load considerations, tight urban site constraints, and coordination with 5+ trades. Material delivery timing critical for continuous vertical progress.",
+      "solutions": "Coordinated with procurement teams to improve material delivery reliability by 15%. Facilitated multi-trade coordination to resolve field conflicts and maintain workflow continuity.",
+      "specifications": {
+        "systemType": "Hybrid Stick-Built and Unitized Curtain Wall",
+        "squareFootage": "65,000 sq ft of facade",
+        "materials": ["Impact-Resistant Glass", "High-Performance Sealants", "Structural Silicone Glazing"]
+      },
+      "tags": ["Curtain Wall", "High-Rise", "Commercial", "Stick-Built", "Unitized"]
+    },
+    {
+      "id": "fm-headquarters",
+      "slug": "fm-global-headquarters-norwood",
+      "title": "FM Global Headquarters",
+      "subtitle": "Corporate Campus Facade System",
+      "location": "Norwood, MA",
+      "year": "2024",
+      "value": "$15.8M",
+      "category": "Curtain Wall",
+      "experienceSlug": "island-exterior-fabricators",
+      "status": "Ongoing",
+      "hero": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1478860409698-8707f313ee8b?w=800&h=600&fit=crop"
+      ],
+      "description": "Complex facade system for FM Global's corporate headquarters featuring integrated curtain wall, ribbon windows, and architectural panel systems. Comprehensive project management across design-assist, procurement, and installation phases.",
+      "scope": "Multi-building corporate campus with diverse facade systems requiring extensive coordination between design, engineering, and construction teams. Managing heat-strengthening tests and quality control protocols.",
+      "challenges": "Complex architectural vision requiring integration of multiple facade systems. Stringent corporate standards for performance and aesthetics. Coordination across multiple building phases.",
+      "solutions": "Collaborated with design and engineering teams during design-assist phase to address constructability challenges. Conducted EDTM SG2700 heat-strengthening tests across multiple panels with comprehensive reporting and documentation.",
+      "specifications": {
+        "systemType": "Multi-System: Unitized Curtain Wall, Ribbon Windows, Panel Systems",
+        "squareFootage": "85,000 sq ft combined facade area",
+        "materials": ["Heat-Strengthened Glass", "Architectural Aluminum Panels", "Advanced Weather Sealing"]
+      },
+      "tags": ["Curtain Wall", "Corporate", "Multi-System", "Design-Assist", "Quality Control"]
+    }
+  ],
+  "categories": ["All", "Curtain Wall", "Architecture", "3D Visualization", "Research", "Personal"]
+}

@@ -101,6 +101,19 @@ export default function ExperienceHero({ experience }: ExperienceHeroProps) {
                   </a>
                 </Button>
               ))}
+              {experience.slug === "island-exterior-fabricators" && (
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="border-white/30 text-white hover:bg-white/10"
+                  onClick={() => {
+                    const projectsSection = document.getElementById("projects-section")
+                    projectsSection?.scrollIntoView({ behavior: "smooth" })
+                  }}
+                >
+                  View Projects
+                </Button>
+              )}
             </div>
           </motion.div>
         </div>

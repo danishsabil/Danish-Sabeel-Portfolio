@@ -5,12 +5,11 @@ import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ThemeToggle"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Search } from "lucide-react"
 import { useState } from "react"
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
+  { name: "About", href: "/" },
   { name: "Experience", href: "/experience" },
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
@@ -29,18 +28,6 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-10 h-10">
-              <div className="w-full h-full bg-gradient-to-br from-rose-500 to-rose-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">DS</span>
-              </div>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-white">Danish Sabeel</h1>
-              <p className="text-sm text-gray-400">Assistant PM • Facades & Curtain Walls</p>
-            </div>
-          </Link>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navigation.map((item) => (
@@ -59,6 +46,13 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-4">
+            <Button
+              variant="ghost"
+              size="sm"
+              className="text-gray-300 hover:text-rose-400 hover:bg-white/10"
+            >
+              <Search className="h-5 w-5" />
+            </Button>
             <ThemeToggle />
             
             {/* Mobile menu button */}

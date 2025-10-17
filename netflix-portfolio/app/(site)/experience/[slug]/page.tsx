@@ -1,10 +1,11 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
-import { getExperienceBySlug, getRelatedExperiences } from "@/lib/data"
+import { getExperienceBySlug, getRelatedExperiences, getProjectsByExperience } from "@/lib/data"
 import ExperienceHero from "@/components/ExperienceHero"
 import EpisodeCarousel from "@/components/EpisodeCarousel"
 import ProfileCard from "@/components/ProfileCard"
+import ProjectCard from "@/components/ProjectCard"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import type { Metadata } from "next"
@@ -57,6 +58,7 @@ export default async function ExperiencePage({ params }: ExperiencePageProps) {
   }
 
   const relatedExperiences = await getRelatedExperiences(params.slug, 3)
+  const relatedProjects = await getProjectsByExperience(params.slug)
 
   return (
     <div className="min-h-screen bg-black">
@@ -70,7 +72,25 @@ export default async function ExperiencePage({ params }: ExperiencePageProps) {
           <EpisodeCarousel episodes={experience.episodes} />
         </section>
 
-        <Separator className="bg-white/10 mb-16" />
+        {relatedProjects.length > 0 && <Separator className="bg-white/10 mb-16" />}
+
+        {/* Related Projects */}
+        {relatedProjects.length > 0 && (
+          <section id="projects-section" className="mb-16">
+            <h3 className="text-3xl font-bold text-white mb-8">Projects</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedProjects.map((project, index) => (
+                <ProjectCard
+                  key={project.slug}
+                  project={project}
+                  index={index}
+                />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {relatedExperiences.length > 0 && <Separator className="bg-white/10 mb-16" />}
 
         {/* More Like This */}
         {relatedExperiences.length > 0 && (
