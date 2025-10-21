@@ -5,56 +5,64 @@
       "slug": "neu-expo-boston",
       "title": "NEU EXPO",
       "subtitle": "Northeastern University Exhibition Center",
-      "location": "Boston, MA",
+      "location": "Roxbury, Boston, MA",
       "year": "2024",
-      "value": "$8.5M",
+      "value": "$45M",
       "category": "Curtain Wall",
       "experienceSlug": "island-exterior-fabricators",
-      "status": "Ongoing",
-      "hero": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "status": "Completed",
+      "hero": "/images/projects/neu-expo/image-1.jpg",
       "images": [
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&h=600&fit=crop"
+        "/images/projects/neu-expo/image-1.jpg",
+        "/images/projects/neu-expo/image-2.jpg",
+        "/images/projects/neu-expo/image-3.jpg",
+        "/images/projects/neu-expo/image-4.jpg"
       ],
-      "description": "Managing comprehensive curtain wall packages for Northeastern University's new Exhibition Center. This project involves coordinating EWA-2, EWA-3, and EWA-5 packages with complex unitized curtain wall systems featuring high-performance glazing and aluminum framing.",
-      "scope": "Complete facade package management including design-assist, procurement, fabrication coordination, and installation oversight for a 150,000 sq ft educational facility.",
-      "challenges": "Coordinating multiple curtain wall packages simultaneously while maintaining strict educational facility schedules and performance requirements. Managing complex logistics in dense urban Boston environment.",
-      "solutions": "Implemented digital tracking systems and AI-driven automation for material delivery coordination. Developed comprehensive progress trackers achieving 100% completion on EWA-5 with improved variance metrics.",
+      "description": "Managed comprehensive closeout process for Northeastern University's Exhibition Center curtain wall project in Roxbury, Boston. Joined Island Exterior Fabricators during the final stages to ensure quality completion, documentation, and successful client handover for this $45M curtain wall scope.",
+      "scope": "Project closeout management including punchlist approval and submission, preparation of closeout documentation, finalization of warranties and terms & conditions, and coordination of project handover to the client. Worked collaboratively with Project Manager to ensure complete and compliant project delivery.",
+      "challenges": "Joining during late-stage closeout required quickly understanding complex curtain wall systems and prior project history. Managing detailed punchlist items across 45,000 sq ft of curtain wall while coordinating with multiple stakeholders for documentation and warranty finalization. Ensuring all closeout requirements met client expectations and contractual obligations.",
+      "solutions": "Developed systematic approach to punchlist management, tracking each item from identification through completion. Created comprehensive closeout documentation package including warranties, operation manuals, and as-built drawings. Coordinated closely with Project Manager and client representatives to ensure smooth handover and client satisfaction.",
       "specifications": {
         "systemType": "Unitized Curtain Wall System",
-        "squareFootage": "45,000 sq ft of facade",
+        "squareFootage": "315,000 sq ft of facade",
+        "facadeArea": "45,000 sq ft",
+        "projectBudget": "$45M (Curtain Wall Scope)",
+        "location": "Roxbury neighborhood, Boston",
         "materials": ["High-Performance Low-E Glass", "Thermally Broken Aluminum Framing", "Integrated Pressure Plates"]
       },
-      "tags": ["Curtain Wall", "Educational", "Large Scale", "Urban Construction"]
+      "tags": ["Curtain Wall", "Educational", "Project Closeout", "Documentation", "Quality Control", "Client Handover"]
     },
     {
       "id": "fnb-tower",
       "slug": "fnb-tower-pittsburgh",
-      "title": "FNB Tower",
-      "subtitle": "FNB Financial Center Tower",
+      "title": "First National Bank",
+      "subtitle": "First National Bank Headquarters",
       "location": "Pittsburgh, PA",
       "year": "2024",
-      "value": "$12.3M",
+      "value": "$20M",
       "category": "Curtain Wall",
       "experienceSlug": "island-exterior-fabricators",
-      "status": "Ongoing",
-      "hero": "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=1920&h=1080&fit=crop",
+      "status": "Completed",
+      "hero": "/images/projects/fnb-tower/image-1.jpg",
       "images": [
-        "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&h=600&fit=crop"
+        "/images/projects/fnb-tower/image-1.jpg",
+        "/images/projects/fnb-tower/image-2.jpg?v=2",
+        "/images/projects/fnb-tower/image-3.jpg",
+        "/images/projects/fnb-tower/image-4.jpg"
       ],
-      "description": "High-rise curtain wall installation for FNB Financial Center Tower in Pittsburgh's central business district. Managing stick-built and unitized glazing systems across 25 floors with advanced structural glazing techniques.",
-      "scope": "Full-scope curtain wall management including vendor coordination, RFI tracking, schedule management, and quality control for commercial high-rise office tower.",
-      "challenges": "High-rise installation logistics, wind load considerations, tight urban site constraints, and coordination with 5+ trades. Material delivery timing critical for continuous vertical progress.",
-      "solutions": "Coordinated with procurement teams to improve material delivery reliability by 15%. Facilitated multi-trade coordination to resolve field conflicts and maintain workflow continuity.",
+      "description": "Led the successful completion of First National Bank's headquarters curtain wall project in Pittsburgh as a takeover from another subcontractor. Managed the completion of 120 remaining reglazes, coordinated new glass procurement and strategic logistics, led 9+ critical testing procedures, and ensured timely delivery to meet the client's Temporary Certificate of Occupancy deadline for this $300M facility.",
+      "scope": "Takeover project management including completion of 120 remaining reglazes, resolution of unpaid vendor issues, procurement and logistics coordination of new glass materials, strategic sequencing of deliveries to maximize installation efficiency, leadership of 9+ testing procedures with remediation of identified issues, door ordering and installation, and coordination with client to achieve Temporary Certificate of Occupancy deadline.",
+      "challenges": "Inheriting a project with incomplete work and unpaid vendors required quickly establishing credibility and new vendor relationships. Managing the complex logistics of glass delivery sequencing across 120 reglaze locations to minimize installation downtime and overhead costs. Leading 9+ tests while studying previous failure reports to identify and remediate leak sources. Coordinating multiple work streams under tight TCO deadline pressure while maintaining quality standards on a $20M curtain wall scope within a $300M total project.",
+      "solutions": "Systematically cleared vendor dues and established reliable new supplier relationships. Developed strategic glass ordering and delivery sequence plan that maximized installation efficiency and minimized downtime. Led comprehensive testing program, analyzing previous test reports to identify root causes of leaks and collaborating with internal technical teams to implement permanent fixes. Coordinated door procurement and installation alongside reglaze work. Successfully delivered all scope items on schedule to meet client's TCO deadline.",
       "specifications": {
-        "systemType": "Hybrid Stick-Built and Unitized Curtain Wall",
-        "squareFootage": "65,000 sq ft of facade",
-        "materials": ["Impact-Resistant Glass", "High-Performance Sealants", "Structural Silicone Glazing"]
+        "systemType": "Curtain Wall System with Reglaze Completion",
+        "cwScopeBudget": "$20M (Curtain Wall Scope)",
+        "totalProjectBudget": "$300M",
+        "reglazeUnits": "120 units completed",
+        "testingProcedures": "9+ tests led and passed",
+        "materials": ["Replacement Glass Units", "High-Performance Sealants", "Weather Barriers", "Door Systems"]
       },
-      "tags": ["Curtain Wall", "High-Rise", "Commercial", "Stick-Built", "Unitized"]
+      "tags": ["Curtain Wall", "Takeover Project", "Testing & QC", "Logistics Coordination", "Problem Solving", "TCO Achievement"]
     },
     {
       "id": "fm-headquarters",
@@ -63,26 +71,79 @@
       "subtitle": "Corporate Campus Facade System",
       "location": "Norwood, MA",
       "year": "2024",
-      "value": "$15.8M",
+      "value": "$50M",
       "category": "Curtain Wall",
       "experienceSlug": "island-exterior-fabricators",
       "status": "Ongoing",
-      "hero": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop",
+      "hero": "/images/projects/fm-global/image-6.jpg",
       "images": [
-        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1478860409698-8707f313ee8b?w=800&h=600&fit=crop"
+        "/images/projects/fm-global/image-6.jpg",
+        "/images/projects/fm-global/image-1.jpg",
+        "/images/projects/fm-global/image-2.jpg",
+        "/images/projects/fm-global/image-3.jpg",
+        "/images/projects/fm-global/image-4.jpg",
+        "/images/projects/fm-global/image-5.jpg"
       ],
-      "description": "Complex facade system for FM Global's corporate headquarters featuring integrated curtain wall, ribbon windows, and architectural panel systems. Comprehensive project management across design-assist, procurement, and installation phases.",
-      "scope": "Multi-building corporate campus with diverse facade systems requiring extensive coordination between design, engineering, and construction teams. Managing heat-strengthening tests and quality control protocols.",
-      "challenges": "Complex architectural vision requiring integration of multiple facade systems. Stringent corporate standards for performance and aesthetics. Coordination across multiple building phases.",
-      "solutions": "Collaborated with design and engineering teams during design-assist phase to address constructability challenges. Conducted EDTM SG2700 heat-strengthening tests across multiple panels with comprehensive reporting and documentation.",
+      "description": "Managed comprehensive stick-built curtain wall installation for FM Global's corporate headquarters in Norwood, MA. Oversaw 1,900 linear ft of system installation with full QA/QC protocols, coordinated water testing and leak remediation, created and resolved NCRs, and led on-site union labor coordination using detailed drawings and 3D models. Managed RFIs, generated Change Orders, and maintained continuous design team collaboration to ensure alignment between design intent and field conditions for this $593M corporate campus with $50M curtain wall scope.",
+      "scope": "Comprehensive stick-built curtain wall installation management including 1,900 linear ft of system installation, weather sealing verification through QA/QC protocols, coordination and execution of water testing procedures, leak investigation and remediation, NCR creation and resolution, on-site union labor management and training using sketched drawings and 3D models, RFI management, Change Order generation, schedule coordination, and regular design team collaboration to bridge gaps between as-designed and as-built conditions across 85,000 sq ft of curtain wall area.",
+      "challenges": "Managing 1,900 linear ft of stick-built installation required meticulous attention to weather sealing and quality control. Coordinating water testing revealed multiple leak sources requiring systematic investigation and NCR documentation. Working with union labor required clear communication of complex installation sequences using visual aids. Bridging the gap between design intent and actual site conditions demanded continuous coordination with design team. Maintaining schedule while addressing quality issues and generating necessary Change Orders for scope updates across this large-scale $50M curtain wall scope within a $593M corporate campus project.",
+      "solutions": "Implemented comprehensive QA/QC protocols ensuring weather sealing integrity across all 1,900 linear ft of stick-built installation. Developed systematic approach to water testing, leak identification, and remediation with detailed NCR documentation and root cause analysis. Created effective communication strategy using sketched drawings and 3D models to train and coordinate union labor force. Established regular design coordination meetings to proactively address constructability issues and site condition variations. Managed RFI and Change Order processes efficiently to keep project on schedule while maintaining quality standards and meeting FM Global's stringent corporate requirements.",
       "specifications": {
-        "systemType": "Multi-System: Unitized Curtain Wall, Ribbon Windows, Panel Systems",
-        "squareFootage": "85,000 sq ft combined facade area",
-        "materials": ["Heat-Strengthened Glass", "Architectural Aluminum Panels", "Advanced Weather Sealing"]
+        "systemType": "Stick-Built Curtain Wall System",
+        "cwScopeBudget": "$50M (Curtain Wall Scope)",
+        "totalProjectBudget": "$593M",
+        "totalArea": "320,000 sq ft",
+        "cwArea": "85,000 sq ft",
+        "stickBuiltInstallation": "1,900 linear ft",
+        "testingCompleted": "Water testing with leak remediation",
+        "materials": ["Heat-Strengthened Glass", "Architectural Aluminum Panels", "Advanced Weather Sealing", "Stick-Built Framing Systems"]
       },
-      "tags": ["Curtain Wall", "Corporate", "Multi-System", "Design-Assist", "Quality Control"]
+      "tags": ["Curtain Wall", "Stick-Built Installation", "QA/QC", "Water Testing", "Union Labor Management", "NCR Management", "Design Coordination"]
+    },
+    {
+      "id": "bu-thesis",
+      "slug": "boston-university-thesis",
+      "title": "Agile Construction Project Management",
+      "subtitle": "Best Practices and Case Studies",
+      "location": "Boston, MA",
+      "year": "2023",
+      "value": "Academic Research",
+      "category": "Research",
+      "experienceSlug": "boston-university",
+      "status": "Completed",
+      "hero": "/images/bu-thesis-hero.vif",
+      "images": [
+        "/images/bu-thesis-hero.vif"
+      ],
+      "description": "Master's thesis research exploring Agile Project Management as a transformative framework for construction projects. Demonstrated how Agile's iterative, customer-centric approach improves communication, adaptability, and efficiency across teams while addressing integration challenges. Through global case studies (U.S., Macau, Iraq), concluded that Agile can significantly enhance construction management performance when adapted to industry-specific conditions.",
+      "scope": "Graduate-level research thesis for Master of Science in Project Management at Boston University. Comprehensive analysis of Agile methodologies in construction through literature review, comparative case studies across three international projects, and synthesis of best practices for industry adoption. Research examined stakeholder collaboration, iterative planning frameworks, and hybrid implementation models.",
+      "challenges": "Adapting software development methodologies (Agile) to the traditionally sequential construction industry presented conceptual and practical challenges. Analyzing diverse international case studies required reconciling different regulatory environments, cultural contexts, and project scales. Identifying barriers to Agile adoption including cultural resistance, training requirements, and integration with established Waterfall methodologies. Synthesizing empirical evidence with theoretical frameworks to produce actionable recommendations.",
+      "solutions": "Developed comparative framework analyzing Agile implementation across three distinct construction projects in different countries. Synthesized existing literature with empirical case study data to identify patterns and best practices. Proposed hybrid Agile–Waterfall models that leverage strengths of both methodologies. Identified digital twin technology and modern collaboration tools as enablers for Agile adoption. Created actionable recommendations for construction firms considering Agile transformation, emphasizing change management, stakeholder buy-in, and iterative implementation strategies.",
+      "specifications": {
+        "degreeProgram": "MS Project Management",
+        "institution": "Boston University",
+        "completionDate": "December 2023",
+        "advisors": "Prof. Richard Maltzman, Prof. Anil Sawhney",
+        "researchType": "Comparative Case Study Analysis",
+        "caseStudies": "3 International Projects (U.S., Macau, Iraq)",
+        "frameworks": "Agile, Scrum, Kanban, Hybrid Agile-Waterfall",
+        "keywords": ["Agile Project Management", "Construction Management", "Scrum", "Kanban", "Digital Twin", "Change Management"]
+      },
+      "downloads": [
+        {
+          "label": "Download Research Paper",
+          "file": "/research/danish-sabeel-research-paper.pdf",
+          "type": "PDF",
+          "size": "186 KB"
+        },
+        {
+          "label": "Download Presentation",
+          "file": "/research/danish-sabeel-presentation.pdf",
+          "type": "PDF",
+          "size": "1.2 MB"
+        }
+      ],
+      "tags": ["Research", "Academic", "Agile Methodology", "Project Management", "Master's Thesis", "Boston University", "Construction Innovation"]
     }
   ],
   "categories": ["All", "Curtain Wall", "Architecture", "3D Visualization", "Research", "Personal"]

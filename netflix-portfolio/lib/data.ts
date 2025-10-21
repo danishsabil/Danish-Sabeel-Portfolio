@@ -119,7 +119,12 @@ export async function getRelatedProjects(
     )
     .slice(0, limit)
   
-  // If not enough related projects, fill with random ones
+  // For academic/research projects, don't show random projects
+  if (current.category === "Research" || current.category === "Academic") {
+    return related
+  }
+  
+  // If not enough related projects, fill with random ones (only for non-academic projects)
   if (related.length < limit) {
     const remaining = projects
       .filter((project) => project.slug !== currentSlug && !related.includes(project))

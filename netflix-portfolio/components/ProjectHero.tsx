@@ -5,7 +5,7 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { MapPin, Calendar, DollarSign, ArrowLeft, ExternalLink } from "lucide-react"
+import { MapPin, Calendar, DollarSign, ArrowLeft, ExternalLink, Download } from "lucide-react"
 import { Project } from "@/lib/types"
 
 interface ProjectHeroProps {
@@ -17,19 +17,25 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
     <div className="relative h-[70vh] overflow-hidden">
       {/* Hero Image */}
       <div className="absolute inset-0">
-        <Image
-          src={project.hero}
-          alt={`${project.title} hero image`}
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 netflix-gradient" />
+        {project.hero ? (
+          <>
+            <Image
+              src={project.hero}
+              alt={`${project.title} hero image`}
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 netflix-gradient" />
+          </>
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900" />
+        )}
       </div>
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-end">
-        <div className="container mx-auto px-6 pb-16">
+        <div className="container mx-auto px-6 pt-20 pb-16">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -62,11 +68,11 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
             </div>
 
             {/* Title */}
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 max-w-4xl leading-tight">
               {project.title}
             </h1>
             {project.subtitle && (
-              <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
+              <h2 className="text-xl md:text-2xl text-gray-300 mb-6 max-w-3xl">
                 {project.subtitle}
               </h2>
             )}
@@ -115,20 +121,44 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
               ))}
             </div>
 
-            {/* Action Button */}
-            {project.experienceSlug && (
-              <Button
-                variant="default"
-                size="lg"
-                className="bg-rose-600 hover:bg-rose-700 text-white"
-                asChild
-              >
-                <Link href={`/experience/${project.experienceSlug}`}>
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  View Related Experience
-                </Link>
-              </Button>
-            )}
+                   {/* Downloads and Action Buttons */}
+                   <div className="flex flex-wrap gap-3 items-center">
+                     {/* Downloads */}
+                     {project.downloads && project.downloads.length > 0 && (
+                       <>
+                         {project.downloads.map((download, index) => (
+                           <Button
+                             key={index}
+                             variant="default"
+                             size="sm"
+                             className="bg-rose-600 hover:bg-rose-700 text-white text-sm"
+                             asChild
+                           >
+                             <a href={download.file} download target="_blank" rel="noopener noreferrer">
+                               <Download className="w-3 h-3 mr-1" />
+                               {download.label}
+                               {download.size && <span className="ml-1 text-xs opacity-80">({download.size})</span>}
+                             </a>
+                           </Button>
+                         ))}
+                       </>
+                     )}
+
+                     {/* Action Button */}
+                     {project.experienceSlug && (
+                       <Button
+                         variant="default"
+                         size="sm"
+                         className="bg-rose-600 hover:bg-rose-700 text-white text-sm"
+                         asChild
+                       >
+                         <Link href={`/experience/${project.experienceSlug}`}>
+                           <ExternalLink className="w-3 h-3 mr-1" />
+                           View Related Experience
+                         </Link>
+                       </Button>
+                     )}
+                   </div>
           </motion.div>
         </div>
       </div>

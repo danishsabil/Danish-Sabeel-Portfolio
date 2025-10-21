@@ -48,6 +48,13 @@ export interface ProjectSpecifications {
   [key: string]: any
 }
 
+export interface ProjectDownload {
+  label: string
+  file: string
+  type: string
+  size?: string
+}
+
 export interface Project {
   id: string
   slug: string
@@ -66,6 +73,7 @@ export interface Project {
   challenges?: string
   solutions?: string
   specifications?: ProjectSpecifications
+  downloads?: ProjectDownload[]
   tags: string[]
 }
 

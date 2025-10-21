@@ -13,7 +13,7 @@
       "location": "Boston, MA",
       "poster": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=400&fit=crop",
       "backdrop": "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=1920&h=1080&fit=crop",
-      "logo": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&h=200&fit=crop&crop=focalpoint",
+      "logo": "/images/island-exterior-logo.jpg",
       "summary": "Managing project schedules and logistics for large-scale façade projects valued between $2M–$60M, ensuring materials and equipment reach site per construction milestones.",
       "skills": ["PM", "Project Management", "Curtain Wall", "MS Project", "Vendor Coordination", "RFI Management", "Cost Estimation", "Logistics"],
       "links": [
@@ -64,9 +64,9 @@
       "role": "Research/Teaching Assistant",
       "period": "January 2023 — December 2024",
       "location": "Boston, MA",
-      "poster": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=300&h=400&fit=crop",
-      "backdrop": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&h=1080&fit=crop",
-      "logo": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=200&h=200&fit=crop",
+      "poster": "/images/bu-experience-background.jpg",
+      "backdrop": "/images/bu-experience-background.jpg",
+      "logo": "/images/boston-university-logo.png",
       "summary": "Working for the director and faculty of project management under various capacities ranging from designing new construction curriculum to planning, organizing and implementing projects.",
       "skills": ["PM", "Research", "Teaching", "Curriculum Development", "Data Analysis", "Stakeholder Coordination"],
       "links": [
@@ -76,7 +76,7 @@
         {
           "title": "Construction Curriculum Development",
           "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
-          "description": "Designed new construction curriculum and organized course material. Prepared summaries for meetings, classes, and presentations to enhance learning outcomes.",
+          "description": "Designed new construction curriculum and organized course material. Prepared summaries for meetings, classes, and presentations to enhance learning outcomes and improve educational delivery.",
           "metrics": [
             {"label": "Curriculum Modules", "value": "Multiple"},
             {"label": "Course Materials", "value": "Organized"}
@@ -85,7 +85,7 @@
         {
           "title": "Industry Research & Data Analysis",
           "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
-          "description": "Reviewed real-world data for trends of Construction Management courses within USA, providing insights for program improvements.",
+          "description": "Reviewed real-world data for trends of Construction Management courses within USA, providing insights for program improvements and strategic planning initiatives.",
           "metrics": [
             {"label": "Data Analysis", "value": "Nationwide"},
             {"label": "Trend Reports", "value": "Delivered"}
@@ -94,10 +94,19 @@
         {
           "title": "Stakeholder Coordination",
           "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
-          "description": "Interfaced with research teams, STEER and PMI on strategy, alignment, planning and mitigating issues across various project management initiatives.",
+          "description": "Interfaced with research teams, STEER and PMI on strategy, alignment, planning and mitigating issues across various project management initiatives and partnerships.",
           "metrics": [
             {"label": "Organizations", "value": "STEER, PMI"},
             {"label": "Coordination", "value": "Strategic"}
+          ]
+        },
+        {
+          "title": "Master's Thesis Research",
+          "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
+          "description": "Completed comprehensive research on Implementation of Agile Project Management in Construction. Explored how Agile principles can revolutionize construction management through flexibility, stakeholder collaboration, and iterative planning. Backed by global case studies from U.S., Macau, and Iraq.",
+          "metrics": [
+            {"label": "Case Studies", "value": "3 International"},
+            {"label": "Completion", "value": "Dec 2023"}
           ]
         }
       ]

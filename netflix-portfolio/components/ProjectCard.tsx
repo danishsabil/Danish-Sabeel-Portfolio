@@ -29,13 +29,20 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       >
         <Card className="overflow-hidden border-0 bg-gradient-to-b from-gray-900 to-black card-hover h-full">
           <div className="relative aspect-[16/10] overflow-hidden">
-            <Image
-              src={project.hero}
-              alt={`${project.title} - ${project.subtitle || ''}`}
-              fill
-              className="object-cover transition-transform duration-500 group-hover:scale-110"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            />
+            {project.hero ? (
+              <>
+                <Image
+                  src={project.hero}
+                  alt={`${project.title} - ${project.subtitle || ''}`}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
+              </>
+            ) : (
+              <div className="absolute inset-0 bg-gradient-to-br from-rose-900/40 via-gray-900 to-black" />
+            )}
             
             {/* Status badge overlay */}
             <div className="absolute top-4 right-4 z-10">
@@ -46,9 +53,6 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
                 {project.status}
               </Badge>
             </div>
-
-            {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
             
             {/* Content overlay */}
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">

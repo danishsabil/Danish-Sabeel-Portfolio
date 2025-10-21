@@ -103,14 +103,14 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <Separator className="bg-white/10 mb-16" />
 
         {/* Image Gallery */}
-        {project.images && project.images.length > 0 && (
+        {project.images && project.images.length > 1 && (
           <section className="mb-16">
             <h3 className="text-3xl font-bold text-white mb-8">Project Gallery</h3>
             <ProjectGallery images={project.images} projectTitle={project.title} />
           </section>
         )}
 
-        {project.images && project.images.length > 0 && relatedProjects.length > 0 && (
+        {project.images && project.images.length > 1 && relatedProjects.length > 0 && (
           <Separator className="bg-white/10 mb-16" />
         )}
 
