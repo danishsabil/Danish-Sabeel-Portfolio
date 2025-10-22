@@ -144,6 +144,109 @@
         }
       ],
       "tags": ["Research", "Academic", "Agile Methodology", "Project Management", "Master's Thesis", "Boston University", "Construction Innovation"]
+    },
+    {
+      "id": "rv-residence",
+      "slug": "rv-residence-udaipur",
+      "title": "RV Residence",
+      "subtitle": "Luxury Bathroom Suite Design & Construction",
+      "location": "Udaipur, Rajasthan",
+      "year": "2022",
+      "value": "$27,000",
+      "category": "Architecture",
+      "experienceSlug": "black-box-architects",
+      "status": "Completed",
+      "hero": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop"
+      ],
+      "description": "Designed and executed construction of 8 custom bathrooms for a luxury residence in Udaipur. The project emphasized both technical excellence and aesthetic sophistication, delivering highly customized bathroom suites that balanced functionality with elegant design. Successfully coordinated complex plumbing and electrical systems while ensuring waterproofing integrity and client satisfaction.",
+      "scope": "Complete design and construction management for 8 bathrooms including design conceptualization, fixture selection, material specification, plumbing and electrical coordination, waterproofing system implementation, tile and stone work, lighting design, and final installation. Managed vendor relationships, quality control, and client consultations throughout the project lifecycle.",
+      "challenges": "Coordinating 8 simultaneous bathroom installations required meticulous planning to avoid conflicts between plumbing, electrical, and HVAC systems. Each bathroom had unique design requirements and custom fixtures, demanding careful attention to individual client preferences while maintaining overall design cohesion. Ensuring proper waterproofing across all installations was critical given the multiple wet areas. Managing supply chain for premium fixtures and materials while adhering to budget constraints required strategic vendor negotiation and procurement planning.",
+      "solutions": "Developed comprehensive plumbing and electrical coordination drawings to eliminate conflicts before construction. Implemented rigorous waterproofing protocols with multiple membrane layers and testing procedures. Created detailed fixture schedules and material specifications for each bathroom, ensuring customization without design fragmentation. Established strong relationships with premium fixture suppliers to secure quality materials within budget. Conducted regular quality inspections at each construction phase and maintained close client communication for design approvals, resulting in high client satisfaction and zero post-completion issues.",
+      "specifications": {
+        "totalBathrooms": "8 custom bathroom suites",
+        "projectBudget": "$27,000 USD",
+        "designStyle": "Contemporary luxury with custom fixtures",
+        "keyFeatures": "Premium sanitary ware, custom vanities, designer tiles",
+        "systems": ["Advanced plumbing coordination", "Integrated lighting design", "Multi-layer waterproofing", "Ventilation systems"],
+        "materials": ["Premium porcelain tiles", "Natural stone", "High-end fixtures", "Custom cabinetry"]
+      },
+      "tags": ["Architecture", "Interior Design", "Residential", "Bathroom Design", "Construction Management", "Luxury Residential"]
+    },
+    {
+      "id": "bannerjee-farms",
+      "slug": "bannerjee-farms-rajasthan",
+      "title": "Bannerjee Farms",
+      "subtitle": "Single Family Vacation Home with Vernacular Design",
+      "location": "Rajasthan, India",
+      "year": "2022-2023",
+      "value": "$94,000",
+      "category": "Architecture",
+      "experienceSlug": "black-box-architects",
+      "status": "Completed",
+      "hero": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1920&h=1080&fit=crop"
+      ],
+      "description": "Served as construction manager for a 2,800 sq ft single family vacation home under Anupama Kundoo Architects. This ground-up construction project masterfully integrated Rajasthan's vernacular architectural heritage with modern sustainable practices. The design featured reused crafted Jhali's (traditional latticed screens) from Rajput and Mughal architecture, 14 continuous arches, and exposed Class A bricks—all responding to Rajasthan's dry and hot climate while celebrating local craftsmanship.",
+      "scope": "Comprehensive construction management for ground-up vacation home including material sourcing and cost optimization, contractor coordination for specialized vernacular construction techniques, quality control for 14 continuous arches construction, implementation of pull planning methodology with subcontractors, RFI management with design team, on-site supervision and safety compliance, and budget and schedule tracking. Collaborated closely with Anupama Kundoo Architects to ensure design intent was maintained throughout construction.",
+      "challenges": "Ground-up construction in a remote location required careful material requirement analysis and identification of locally sourced alternatives to reduce transportation costs without compromising quality. The construction of 14 continuous arches presented significant technical challenges—requiring deep understanding of arch construction intricacies, formwork design, and load distribution. Coordinating traditional craftsmanship of Jhali installation with modern construction methods demanded bridging knowledge gaps between artisans and contractors. Managing multiple subcontractors with varying levels of experience in vernacular techniques required extensive on-site mentoring and continuous quality checks to maintain construction standards.",
+      "solutions": "Conducted comprehensive material analysis and successfully identified locally sourced alternatives, significantly reducing material and transportation costs. Collaborated extensively with contractors and local masons to understand arch construction intricacies, developing detailed construction sequences and formwork strategies. Created visual guides and conducted on-site demonstrations to ensure contractors understood the scope of traditional Jhali installation and exposed brick work. Implemented pull planning principles with all subcontractors, creating a collaborative schedule that minimized downtime and improved workflow efficiency. Through continuous quality checks, regular coordination meetings, and proactive problem-solving, achieved 15% improvement in both schedule efficiency and budget performance while delivering authentic vernacular architecture.",
+      "specifications": {
+        "buildingArea": "2,800 sq ft",
+        "projectBudget": "$94,000 USD",
+        "architecturalStyle": "Vernacular Rajasthani with contemporary comfort",
+        "keyFeatures": "14 continuous arches, Crafted Jhali screens, Exposed Class A brick",
+        "designArchitect": "Anupama Kundoo Architects",
+        "constructionType": "Ground-up construction",
+        "climateStrategy": "Passive cooling through Jhali ventilation and thermal mass",
+        "materials": ["Reused traditional Jhali screens (Rajput & Mughal)", "Exposed Class A bricks", "Local stone", "Traditional lime plaster"],
+        "culturalElements": "Integration of Rajasthani handcraft heritage"
+      },
+      "tags": ["Architecture", "Vernacular Design", "Sustainable Construction", "Vacation Home", "Anupama Kundoo", "Traditional Craftsmanship", "Climate-Responsive Design"]
+    },
+    {
+      "id": "haldwani-residence",
+      "slug": "haldwani-residence-uttarakhand",
+      "title": "Haldwani Residence",
+      "subtitle": "Climate-Responsive Family Home",
+      "location": "Haldwani, Uttarakhand, India",
+      "year": "2022",
+      "value": "$54,000",
+      "category": "Architecture",
+      "experienceSlug": "black-box-architects",
+      "status": "Completed",
+      "hero": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop"
+      ],
+      "description": "Designed a 4,000 sq ft climate-responsive family residence in the foothills of Uttarakhand, India. The project masterfully balanced modern aesthetics with environmental responsiveness, creating a warm and inviting home that thrives in Haldwani's cold and dry climate. The design integrated passive solar strategies, natural daylighting optimization, and thoughtful spatial organization to deliver a contemporary home that minimizes energy dependence while maximizing comfort and livability.",
+      "scope": "Complete architectural design from concept through construction documentation for a 4,000 sq ft family residence including site analysis and climate study, conceptual design and spatial planning for 4 bedrooms plus communal areas, passive solar orientation and daylighting optimization, material selection emphasizing thermal efficiency and local sourcing, landscape design integrating green terraces and native plantation, double-height entrance porch and private meditation terrace design, coordination of structural, MEP, and landscape consultants, and construction administration ensuring design intent realization.",
+      "challenges": "The site orientation between dense vegetation and a narrow urban street created multiple design constraints. Limited street frontage restricted natural light penetration into deeper interior spaces, requiring creative daylighting solutions. Haldwani's cold-dry climate demanded high thermal efficiency without sacrificing the client's desire for visual openness and large glazed areas. The design brief called for both architectural grandeur—particularly a striking entrance—and intimate privacy through enclosed boundaries and contemplative spaces. Achieving efficient spatial zoning for communal living areas, four private bedrooms, independent service zones, front lawn, and rooftop terrace within a compact 4,000 sq ft footprint while maintaining proportion and flow required careful three-dimensional planning.",
+      "solutions": "Conceived the residence as a composition of interlocking volumes where solid-void relationships create rhythm, depth, and dynamic light play throughout the day. Maximized south-facing openings with large glazed windows to capture abundant winter sunlight for passive heating, while incorporating overhangs and vertical fins for summer shading—balancing year-round comfort. The double-height entrance porch serves as both a grand focal point and a functional element improving ventilation and daylight diffusion into the core. Designed open-plan living and dining areas with seamless visual connections to front lawn and rear garden, promoting cross ventilation and spatial continuity. Created private balcony and meditation terrace as contemplative retreats for morning meditation and family leisure. Employed warm-toned materials including natural wood finishes and muted earthy hues to enhance coziness in the cold climate. Utilized contrast between solid walls and transparent planes to provide privacy where needed while maintaining openness and natural light. Integrated locally sourced materials and native landscape elements to improve microclimate comfort, reduce environmental impact, and ensure long-term durability suitable for regional climatic conditions.",
+      "specifications": {
+        "buildingArea": "4,000 sq ft",
+        "projectBudget": "$54,000 USD",
+        "designStyle": "Modern climate-responsive architecture",
+        "climateZone": "Cold-dry (Himalayan foothills)",
+        "bedrooms": "4 private bedrooms",
+        "keySpaces": "Double-height entrance porch, Open living-dining, Private meditation terrace, Front lawn, Rear garden",
+        "parking": "1 car + 2 two-wheelers",
+        "sustainableFeatures": ["Passive solar orientation", "Natural daylighting", "Cross ventilation", "Thermal mass optimization", "Green terraces", "Native plantation"],
+        "materials": ["Natural wood finishes", "Local stone", "Low-E glazing", "Earthy plaster finishes"],
+        "formLanguage": "Interlocking volumes with solid-void contrast"
+      },
+      "tags": ["Architecture", "Climate-Responsive Design", "Residential", "Passive Solar", "Sustainable Design", "Modern Architecture", "Family Home"]
     }
   ],
   "categories": ["All", "Curtain Wall", "Architecture", "3D Visualization", "Research", "Personal"]

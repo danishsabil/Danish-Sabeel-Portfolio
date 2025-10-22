@@ -127,21 +127,21 @@
       ],
       "episodes": [
         {
-          "title": "Residential Project Portfolio",
+          "title": "Interior & Residential Project Management",
           "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
-          "description": "Launched and managed 4 residential construction and interior projects with budgets ranging from $54,000 to $94,000 USD, delivering them within budget while maintaining highest quality standards.",
+          "description": "Initiated and managed 4 interior projects with budgets up to $27,000 USD. Managed 3 significant projects in Udaipur with budgets up to $94,000 USD, ensuring quality and budget adherence.",
           "metrics": [
-            {"label": "Projects Completed", "value": "4"},
-            {"label": "Budget Range", "value": "$54k-$94k"}
+            {"label": "Interior Projects", "value": "4"},
+            {"label": "Max Budget", "value": "$94k"}
           ]
         },
         {
-          "title": "Lean Construction Implementation",
+          "title": "Consultant Appointment & RFI Management",
           "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
-          "description": "Implemented lean principles and adopted pull planning, resulting in increased schedule efficiency by reducing project throughput.",
+          "description": "Entrusted with key projects for Anupama Kundoo Architects based on client recommendations, highlighting dedication to excellence. Responsible for managing RFI processes.",
           "metrics": [
-            {"label": "Schedule Efficiency", "value": "+15%"},
-            {"label": "Methodology", "value": "Lean/Pull"}
+            {"label": "Notable Clients", "value": "Anupama Kundoo"},
+            {"label": "Process Management", "value": "RFI"}
           ]
         },
         {
@@ -154,12 +154,21 @@
           ]
         },
         {
-          "title": "Consultant Appointment",
+          "title": "Safety & Compliance",
           "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
-          "description": "Appointed as a project consultant by various architects including Anupama Kundoo Architects based on client recommendations, showcasing strong reputation and expertise.",
+          "description": "Monitored construction sites for safety compliance and city standards adherence, emphasizing commitment to project safety.",
           "metrics": [
-            {"label": "Notable Clients", "value": "Anupama Kundoo"},
-            {"label": "Appointment Basis", "value": "Referrals"}
+            {"label": "Safety Focus", "value": "High"},
+            {"label": "Standards", "value": "City Compliant"}
+          ]
+        },
+        {
+          "title": "Lean Construction Implementation",
+          "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
+          "description": "Implemented lean principles and adopted pull planning, resulting in a 15% increase in schedule efficiency by reducing project throughput.",
+          "metrics": [
+            {"label": "Schedule Efficiency", "value": "+15%"},
+            {"label": "Methodology", "value": "Lean/Pull"}
           ]
         }
       ]
@@ -170,9 +179,9 @@
       "role": "Freelance 3D Visualizer",
       "period": "January 2019 — December 2021",
       "location": "Remote/Udaipur",
-      "poster": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=400&fit=crop",
-      "backdrop": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1920&h=1080&fit=crop",
-      "logo": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=200&h=200&fit=crop",
+      "poster": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300&h=400&fit=crop",
+      "backdrop": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop",
+      "logo": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=200&h=200&fit=crop",
       "summary": "Created detailed models and realistic renders for architects and builders' projects. Demonstrated entrepreneurship by building independent visualization practice from the ground up.",
       "skills": ["Visualization", "3D Visualization", "3D Modeling", "Rendering", "Facade Design", "Client Relations", "Entrepreneurship"],
       "links": [
@@ -181,7 +190,7 @@
       "episodes": [
         {
           "title": "3D Visualization Services",
-          "thumb": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=225&fit=crop",
+          "thumb": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=225&fit=crop",
           "description": "Created detailed models and realistic renders for architects and builders' projects, delivering high-quality visualizations that brought designs to life.",
           "metrics": [
             {"label": "Visualizations", "value": "20+"},
@@ -190,7 +199,7 @@
         },
         {
           "title": "Facade Design Consultation",
-          "thumb": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=225&fit=crop",
+          "thumb": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=225&fit=crop",
           "description": "Provided design consultation for facades and implemented those in the models to provide realistic view and feasibility assessment for clients.",
           "metrics": [
             {"label": "Design Input", "value": "Technical"},
@@ -199,7 +208,7 @@
         },
         {
           "title": "Independent Practice Growth",
-          "thumb": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=225&fit=crop",
+          "thumb": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=225&fit=crop",
           "description": "Built successful freelance visualization practice from scratch, establishing client relationships and delivering consistent quality across diverse project types.",
           "metrics": [
             {"label": "Business Model", "value": "Freelance"},
