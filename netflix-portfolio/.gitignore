@@ -128,3 +128,11 @@ public/content/images/*/placeholder.*
 !public/content/images/
 public/content/images/**/*
 !public/content/images/.gitkeep
+
+# Windows device files and system files
+nul
+con
+prn
+aux
+# Nested duplicate directory
+netflix-portfolio/netflix-portfolio/

@@ -188,12 +188,13 @@
       "category": "Architecture",
       "experienceSlug": "black-box-architects",
       "status": "Completed",
-      "hero": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&h=1080&fit=crop",
+      "hero": "/images/projects/bannerjee-farms/image-1.png",
       "images": [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1920&h=1080&fit=crop"
+        "/images/projects/bannerjee-farms/image-1.png",
+        "/images/projects/bannerjee-farms/image-2.png",
+        "/images/projects/bannerjee-farms/image-3.png",
+        "/images/projects/bannerjee-farms/image-4.png",
+        "/images/projects/bannerjee-farms/image-5.png"
       ],
       "description": "Served as construction manager for a 2,800 sq ft single family vacation home under Anupama Kundoo Architects. This ground-up construction project masterfully integrated Rajasthan's vernacular architectural heritage with modern sustainable practices. The design featured reused crafted Jhali's (traditional latticed screens) from Rajput and Mughal architecture, 14 continuous arches, and exposed Class A bricks—all responding to Rajasthan's dry and hot climate while celebrating local craftsmanship.",
       "scope": "Comprehensive construction management for ground-up vacation home including material sourcing and cost optimization, contractor coordination for specialized vernacular construction techniques, quality control for 14 continuous arches construction, implementation of pull planning methodology with subcontractors, RFI management with design team, on-site supervision and safety compliance, and budget and schedule tracking. Collaborated closely with Anupama Kundoo Architects to ensure design intent was maintained throughout construction.",
@@ -223,12 +224,11 @@
       "category": "Architecture",
       "experienceSlug": "black-box-architects",
       "status": "Completed",
-      "hero": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop",
+      "hero": "/images/projects/haldwani-residence/image-1.png",
       "images": [
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop"
+        "/images/projects/haldwani-residence/image-1.png",
+        "/images/projects/haldwani-residence/image-2.png",
+        "/images/projects/haldwani-residence/image-3.png"
       ],
       "description": "Designed a 4,000 sq ft climate-responsive family residence in the foothills of Uttarakhand, India. The project masterfully balanced modern aesthetics with environmental responsiveness, creating a warm and inviting home that thrives in Haldwani's cold and dry climate. The design integrated passive solar strategies, natural daylighting optimization, and thoughtful spatial organization to deliver a contemporary home that minimizes energy dependence while maximizing comfort and livability.",
       "scope": "Complete architectural design from concept through construction documentation for a 4,000 sq ft family residence including site analysis and climate study, conceptual design and spatial planning for 4 bedrooms plus communal areas, passive solar orientation and daylighting optimization, material selection emphasizing thermal efficiency and local sourcing, landscape design integrating green terraces and native plantation, double-height entrance porch and private meditation terrace design, coordination of structural, MEP, and landscape consultants, and construction administration ensuring design intent realization.",
@@ -247,6 +247,125 @@
         "formLanguage": "Interlocking volumes with solid-void contrast"
       },
       "tags": ["Architecture", "Climate-Responsive Design", "Residential", "Passive Solar", "Sustainable Design", "Modern Architecture", "Family Home"]
+    },
+    {
+      "id": "commercial-center-pune",
+      "slug": "commercial-center-pune-jayaerem",
+      "title": "Multistory Commercial Center",
+      "subtitle": "Facade Design Visualization",
+      "location": "Pune, Maharashtra, India",
+      "year": "2019-2021",
+      "value": "Variable",
+      "category": "3D Visualization",
+      "experienceSlug": "blackbox-visuals",
+      "status": "Completed",
+      "hero": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1920&h=1080&fit=crop"
+      ],
+      "description": "Provided elevation design consultation and 3D visualization services for a multistory commercial center. Created multiple design elevation options for client approval, implementing facade designs in detailed 3D models to help architects present options effectively to clients.",
+      "scope": "Facade elevation design consultation, creation of multiple design elevation options, 3D modeling of commercial building facade, realistic rendering for client presentation, design iteration support for architect approval process.",
+      "challenges": "Creating multiple elevation design options that met client requirements while maintaining design coherence. Balancing aesthetic appeal with constructability in facade design. Translating 2D design concepts into realistic 3D visualizations that accurately represented final appearance.",
+      "solutions": "Developed systematic approach to facade design consultation, presenting multiple elevation options with clear design rationale. Utilized advanced 3D modeling techniques to accurately represent materials, textures, and lighting conditions. Created high-quality renderings that enabled clients to make informed decisions, increasing approval rates for architects.",
+      "specifications": {
+        "projectType": "Multistory Commercial Center",
+        "services": "Facade Design Consultation, 3D Visualization",
+        "deliverables": "Multiple Elevation Design Options, 3D Models, High-Resolution Renderings",
+        "pricingModel": "Flat fee for renders, variable fee for modeling based on scope",
+        "architect": "Jay Aerem Architects, Pune"
+      },
+      "tags": ["3D Visualization", "Facade Design", "Architectural Consultation", "Commercial", "Elevation Design"]
+    },
+    {
+      "id": "residential-highrise-pune",
+      "slug": "residential-highrise-pune-jayaerem",
+      "title": "Residential Highrise",
+      "subtitle": "Facade Design Visualization",
+      "location": "Pune, Maharashtra, India",
+      "year": "2019-2021",
+      "value": "Variable",
+      "category": "3D Visualization",
+      "experienceSlug": "blackbox-visuals",
+      "status": "Completed",
+      "hero": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop"
+      ],
+      "description": "Delivered facade design visualization services for a residential highrise project. Created comprehensive 3D models and renderings showcasing facade design options, enabling architects to effectively communicate design intent to clients and stakeholders.",
+      "scope": "Facade design consultation, 3D modeling of residential highrise facade, multiple design option visualization, realistic rendering with environmental context, design iteration support.",
+      "challenges": "Creating visualizations that accurately represented the scale and proportions of a highrise building. Balancing residential aesthetic requirements with practical facade considerations. Presenting design options in a way that facilitated clear decision-making.",
+      "solutions": "Developed detailed 3D models that accurately captured building scale and facade details. Created multiple rendering perspectives including street view, aerial views, and detail shots. Implemented realistic lighting and material representation to showcase design options effectively.",
+      "specifications": {
+        "projectType": "Residential Highrise",
+        "services": "Facade Design Visualization, 3D Modeling",
+        "deliverables": "3D Models, High-Resolution Renderings, Design Option Comparisons",
+        "pricingModel": "Flat fee for renders, variable fee for modeling based on scope",
+        "architect": "Jay Aerem Architects, Pune"
+      },
+      "tags": ["3D Visualization", "Facade Design", "Residential", "Highrise", "Architectural Consultation"]
+    },
+    {
+      "id": "office-complex-mathur",
+      "slug": "office-complex-mathur",
+      "title": "Office Complex",
+      "subtitle": "Commercial Facade Design Consultation",
+      "location": "India",
+      "year": "2019-2021",
+      "value": "Variable",
+      "category": "3D Visualization",
+      "experienceSlug": "blackbox-visuals",
+      "status": "Completed",
+      "hero": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop"
+      ],
+      "description": "Provided commercial facade design consultation and 3D visualization for an office complex. Delivered comprehensive facade design options implemented in detailed 3D models, helping architects present professional design solutions to clients and increasing project approval rates.",
+      "scope": "Commercial facade design consultation, elevation design development, 3D modeling of office complex facade, realistic rendering for client presentation, design documentation support.",
+      "challenges": "Addressing commercial building requirements including functionality, aesthetics, and cost considerations. Creating visualizations that reflected professional corporate image while maintaining design innovation. Balancing design creativity with practical implementation constraints.",
+      "solutions": "Developed facade design solutions that met commercial building standards while maintaining architectural excellence. Created detailed 3D visualizations that accurately represented material finishes and building proportions. Provided comprehensive design documentation to support architect-client communication and project approval process.",
+      "specifications": {
+        "projectType": "Office Complex",
+        "services": "Commercial Facade Design Consultation, 3D Visualization",
+        "deliverables": "Facade Design Options, 3D Models, Renderings",
+        "pricingModel": "Flat fee for renders, variable fee for modeling based on scope",
+        "architect": "Sanjay Mathur Associates"
+      },
+      "tags": ["3D Visualization", "Facade Design", "Commercial", "Office Building", "Architectural Consultation"]
+    },
+    {
+      "id": "residential-interior-mathur",
+      "slug": "residential-interior-mathur",
+      "title": "Residential Interior",
+      "subtitle": "Interior Visualization & Design Consultation",
+      "location": "India",
+      "year": "2019-2021",
+      "value": "Variable",
+      "category": "3D Visualization",
+      "experienceSlug": "blackbox-visuals",
+      "status": "Completed",
+      "hero": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&h=1080&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1920&h=1080&fit=crop",
+        "https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=1920&h=1080&fit=crop"
+      ],
+      "description": "Delivered interior visualization and design consultation services for a residential project. Created detailed 3D interior models and photorealistic renderings that enabled clients to visualize design concepts and make informed decisions about interior spaces, materials, and finishes.",
+      "scope": "Interior design consultation, 3D modeling of residential interior spaces, material and finish visualization, realistic rendering with lighting simulation, design option presentations.",
+      "challenges": "Capturing the ambiance and spatial quality of interior spaces in 3D visualization. Accurately representing materials, textures, and lighting conditions. Creating renderings that helped clients understand design intent and make confident decisions.",
+      "solutions": "Utilized advanced lighting simulation techniques to create realistic interior ambiance. Developed detailed material libraries to accurately represent finishes and textures. Created multiple camera angles and perspectives to comprehensively showcase interior design concepts. Provided design consultation support to refine interior layouts and material selections.",
+      "specifications": {
+        "projectType": "Residential Interior",
+        "services": "Interior Visualization, Design Consultation",
+        "deliverables": "3D Interior Models, Photorealistic Renderings, Material Visualizations",
+        "pricingModel": "Flat fee for renders, variable fee for modeling based on scope",
+        "architect": "Sanjay Mathur Associates"
+      },
+      "tags": ["3D Visualization", "Interior Design", "Residential", "Interior Consultation", "Rendering"]
     }
   ],
   "categories": ["All", "Curtain Wall", "Architecture", "3D Visualization", "Research", "Personal"]

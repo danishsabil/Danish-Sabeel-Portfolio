@@ -22,7 +22,6 @@
       "episodes": [
         {
           "title": "Digital Automation & Process Improvement",
-          "thumb": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=225&fit=crop",
           "description": "Proactively developed digital trackers and AI-driven automations to streamline repetitive documentation, delivery tracking, and material status reporting—enhancing visibility and improving logistics accuracy.",
           "metrics": [
             {"label": "Reporting Time Reduction", "value": "30%"},
@@ -31,7 +30,6 @@
         },
         {
           "title": "Material Delivery Coordination",
-          "thumb": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=225&fit=crop",
           "description": "Coordinated with procurement teams and vendors to align lead times, improving material delivery reliability and reducing schedule disruptions across multiple project packages.",
           "metrics": [
             {"label": "Delivery Reliability", "value": "+15%"},
@@ -40,7 +38,6 @@
         },
         {
           "title": "Multi-Trade Coordination",
-          "thumb": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=225&fit=crop",
           "description": "Facilitated coordination among 5+ trades to resolve field conflicts, maintain workflow continuity, and support seamless project execution.",
           "metrics": [
             {"label": "Trades Coordinated", "value": "5+"},
@@ -49,7 +46,6 @@
         },
         {
           "title": "Design-Assist Collaboration",
-          "thumb": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=225&fit=crop",
           "description": "Collaborated with design, engineering, and construction teams during design-assist phase to address constructability and sequencing challenges while managing RFIs, change orders, and transmittals.",
           "metrics": [
             {"label": "Documentation Tracked", "value": "100+"},
@@ -75,7 +71,6 @@
       "episodes": [
         {
           "title": "Construction Curriculum Development",
-          "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
           "description": "Designed new construction curriculum and organized course material. Prepared summaries for meetings, classes, and presentations to enhance learning outcomes and improve educational delivery.",
           "metrics": [
             {"label": "Curriculum Modules", "value": "Multiple"},
@@ -84,7 +79,6 @@
         },
         {
           "title": "Industry Research & Data Analysis",
-          "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
           "description": "Reviewed real-world data for trends of Construction Management courses within USA, providing insights for program improvements and strategic planning initiatives.",
           "metrics": [
             {"label": "Data Analysis", "value": "Nationwide"},
@@ -93,7 +87,6 @@
         },
         {
           "title": "Stakeholder Coordination",
-          "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
           "description": "Interfaced with research teams, STEER and PMI on strategy, alignment, planning and mitigating issues across various project management initiatives and partnerships.",
           "metrics": [
             {"label": "Organizations", "value": "STEER, PMI"},
@@ -102,7 +95,6 @@
         },
         {
           "title": "Master's Thesis Research",
-          "thumb": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop",
           "description": "Completed comprehensive research on Implementation of Agile Project Management in Construction. Explored how Agile principles can revolutionize construction management through flexibility, stakeholder collaboration, and iterative planning. Backed by global case studies from U.S., Macau, and Iraq.",
           "metrics": [
             {"label": "Case Studies", "value": "3 International"},
@@ -117,9 +109,9 @@
       "role": "Principal Architect, Construction Manager",
       "period": "January 2022 — January 2023",
       "location": "Udaipur, Rajasthan",
-      "poster": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=300&h=400&fit=crop",
-      "backdrop": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&h=1080&fit=crop",
-      "logo": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&h=200&fit=crop",
+      "poster": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300&h=400&fit=crop",
+      "backdrop": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&h=1080&fit=crop",
+      "logo": "/images/blackbox-logo.jpg",
       "summary": "Launched and managed residential construction and interior projects, delivering them within budget while maintaining highest quality standards. Demonstrated entrepreneurship drive through independent practice.",
       "skills": ["PM", "Design", "Construction Management", "Team Leadership", "Lean Construction", "Quality Control", "Client Relations", "Entrepreneurship"],
       "links": [
@@ -128,7 +120,6 @@
       "episodes": [
         {
           "title": "Interior & Residential Project Management",
-          "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
           "description": "Initiated and managed 4 interior projects with budgets up to $27,000 USD. Managed 3 significant projects in Udaipur with budgets up to $94,000 USD, ensuring quality and budget adherence.",
           "metrics": [
             {"label": "Interior Projects", "value": "4"},
@@ -137,7 +128,6 @@
         },
         {
           "title": "Consultant Appointment & RFI Management",
-          "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
           "description": "Entrusted with key projects for Anupama Kundoo Architects based on client recommendations, highlighting dedication to excellence. Responsible for managing RFI processes.",
           "metrics": [
             {"label": "Notable Clients", "value": "Anupama Kundoo"},
@@ -146,7 +136,6 @@
         },
         {
           "title": "Team Leadership & Coordination",
-          "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
           "description": "Successfully managed and supervised a team between 10-20 subcontractors, ensuring coordination and timely completion of projects within schedule.",
           "metrics": [
             {"label": "Team Size", "value": "10-20"},
@@ -155,7 +144,6 @@
         },
         {
           "title": "Safety & Compliance",
-          "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
           "description": "Monitored construction sites for safety compliance and city standards adherence, emphasizing commitment to project safety.",
           "metrics": [
             {"label": "Safety Focus", "value": "High"},
@@ -164,7 +152,6 @@
         },
         {
           "title": "Lean Construction Implementation",
-          "thumb": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=225&fit=crop",
           "description": "Implemented lean principles and adopted pull planning, resulting in a 15% increase in schedule efficiency by reducing project throughput.",
           "metrics": [
             {"label": "Schedule Efficiency", "value": "+15%"},
@@ -176,21 +163,20 @@
     {
       "slug": "blackbox-visuals",
       "title": "BlackBox Visuals",
-      "role": "Freelance 3D Visualizer",
+      "role": "Freelance 3D Visualization Expert",
       "period": "January 2019 — December 2021",
       "location": "Remote/Udaipur",
-      "poster": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=300&h=400&fit=crop",
-      "backdrop": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1080&fit=crop",
-      "logo": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=200&h=200&fit=crop",
-      "summary": "Created detailed models and realistic renders for architects and builders' projects. Demonstrated entrepreneurship by building independent visualization practice from the ground up.",
-      "skills": ["Visualization", "3D Visualization", "3D Modeling", "Rendering", "Facade Design", "Client Relations", "Entrepreneurship"],
+      "poster": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=300&h=400&fit=crop",
+      "backdrop": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1920&h=1080&fit=crop",
+      "logo": "/images/blackbox-logo.jpg",
+      "summary": "Provided Elevation Design consultation for various highrise buildings and multistory commercial spaces, implementing designs in 3D models for client presentation. Increased client turnover rate for architects and builders, ensuring a continuous pipeline of projects. Managed a team of 3+ freelancers to scale operations.",
+      "skills": ["Visualization", "3D Visualization", "3D Modeling", "Rendering", "Facade Design", "Client Relations", "Entrepreneurship", "Team Management", "Client Development"],
       "links": [
         {"label": "Portfolio", "href": "https://www.behance.net/danishsabil"}
       ],
       "episodes": [
         {
           "title": "3D Visualization Services",
-          "thumb": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=225&fit=crop",
           "description": "Created detailed models and realistic renders for architects and builders' projects, delivering high-quality visualizations that brought designs to life.",
           "metrics": [
             {"label": "Visualizations", "value": "20+"},
@@ -199,20 +185,27 @@
         },
         {
           "title": "Facade Design Consultation",
-          "thumb": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=225&fit=crop",
-          "description": "Provided design consultation for facades and implemented those in the models to provide realistic view and feasibility assessment for clients.",
+          "description": "Provided Elevation Design consultation for various highrise buildings and multistory commercial spaces and implemented those in 3D models for client presentation, increasing the client turnover rate for architects and builders, ensuring a continuous pipeline of projects.",
           "metrics": [
-            {"label": "Design Input", "value": "Technical"},
-            {"label": "Feasibility", "value": "Enhanced"}
+            {"label": "Client Turnover", "value": "Increased"},
+            {"label": "Project Pipeline", "value": "Continuous"}
           ]
         },
         {
           "title": "Independent Practice Growth",
-          "thumb": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=225&fit=crop",
-          "description": "Built successful freelance visualization practice from scratch, establishing client relationships and delivering consistent quality across diverse project types.",
+          "description": "Built successful freelance visualization practice from scratch, establishing client relationships and delivering consistent quality across diverse project types. Managed a team of 3+ freelancers to handle increased project volume.",
           "metrics": [
             {"label": "Business Model", "value": "Freelance"},
-            {"label": "Client Base", "value": "Growing"}
+            {"label": "Client Base", "value": "Growing"},
+            {"label": "Team Size", "value": "3+ freelancers"}
+          ]
+        },
+        {
+          "title": "Team Management & Coordination",
+          "description": "Managed a team of 3+ freelancers to scale operations and handle increased project volume. Coordinated team workflow, quality control, and project delivery timelines to maintain high standards across all visualization projects.",
+          "metrics": [
+            {"label": "Team Size", "value": "3+ freelancers"},
+            {"label": "Project Capacity", "value": "Enhanced"}
           ]
         }
       ]
@@ -234,7 +227,6 @@
       "episodes": [
         {
           "title": "Project Progression & Scale",
-          "thumb": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=225&fit=crop",
           "description": "Started on small residential project design tasks and progressively entrusted with overseeing larger projects ranging from $540,000 to $1,350,000 USD for on-site execution.",
           "metrics": [
             {"label": "Project Range", "value": "$540k-$1.35M"},
@@ -243,7 +235,6 @@
         },
         {
           "title": "Team Mentorship & Supervision",
-          "thumb": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=225&fit=crop",
           "description": "Effectively supervised and mentored a team of up to 30 subcontractors, imparting innovative construction techniques in alignment with design specifications.",
           "metrics": [
             {"label": "Team Size", "value": "Up to 30"},
@@ -252,7 +243,6 @@
         },
         {
           "title": "On-Time & On-Budget Delivery",
-          "thumb": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=225&fit=crop",
           "description": "Successfully delivered on all projects within budget and time while verifying construction documentation to meet client requirements and vision.",
           "metrics": [
             {"label": "Delivery Rate", "value": "100%"},

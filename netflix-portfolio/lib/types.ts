@@ -5,7 +5,7 @@ export interface Metric {
 
 export interface Episode {
   title: string
-  thumb: string
+  thumb?: string
   description: string
   metrics: Metric[]
 }
