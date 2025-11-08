@@ -1,3 +1,5 @@
+"use client"
+
 import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -100,14 +102,14 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  I'm a dedicated Assistant Project Manager with extensive experience in 
+                  I&apos;m a dedicated Assistant Project Manager with extensive experience in 
                   curtain wall systems and facade engineering. My passion lies in delivering 
                   complex construction projects that exceed client expectations while maintaining 
                   strict quality standards and timelines.
                 </p>
                 <p>
                   With a strong background in project coordination, vendor management, and 
-                  technical documentation, I've successfully managed multiple high-value 
+                  technical documentation, I&apos;ve successfully managed multiple high-value 
                   projects ranging from commercial buildings to residential complexes.
                 </p>
                 <p>
@@ -188,10 +190,10 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="max-w-2xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-white mb-6">Let's Work Together</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Let&apos;s Work Together</h2>
             <p className="text-gray-300 mb-8 text-lg">
-              I'm always interested in new opportunities and exciting projects. 
-              Let's discuss how I can contribute to your next construction project.
+              I&apos;m always interested in new opportunities and exciting projects. 
+              Let&apos;s discuss how I can contribute to your next construction project.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" className="bg-rose-600 hover:bg-rose-700 text-white">

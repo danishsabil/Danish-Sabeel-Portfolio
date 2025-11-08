@@ -1,10 +1,11 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef, useEffect, useCallback } from "react"
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 import ProfileCard from "@/components/ProfileCard"
 import { Experience } from "@/lib/types"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const categories = ["All", "PM", "Design", "Visualization"]
 
@@ -15,6 +16,11 @@ interface HomePageClientProps {
 export default function HomePageClient({ experiences }: HomePageClientProps) {
   const [filteredExperiences, setFilteredExperiences] = useState<Experience[]>(experiences)
   const [selectedCategory, setSelectedCategory] = useState("All")
+  const [currentPage, setCurrentPage] = useState(0)
+  const scrollRef = useRef<HTMLDivElement>(null)
+  const cardsPerPage = 3
+
+  const totalPages = Math.ceil(filteredExperiences.length / cardsPerPage)
 
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category)
@@ -28,7 +34,47 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
       )
       setFilteredExperiences(filtered)
     }
+    setCurrentPage(0) // Reset to first page when filtering
   }
+
+  const scrollToPage = useCallback((page: number) => {
+    if (scrollRef.current) {
+      const container = scrollRef.current
+      const itemWidth = container.children[0]?.clientWidth || 0
+      const gap = 24 // gap-6
+      const scrollLeft = page * cardsPerPage * (itemWidth + gap)
+      container.scrollTo({ left: scrollLeft, behavior: "smooth" })
+    }
+    setCurrentPage(page)
+  }, [cardsPerPage])
+
+  const nextPage = () => {
+    const nextPageIndex = Math.min(currentPage + 1, totalPages - 1)
+    scrollToPage(nextPageIndex)
+  }
+
+  const prevPage = () => {
+    const prevPageIndex = Math.max(currentPage - 1, 0)
+    scrollToPage(prevPageIndex)
+  }
+
+  // Handle keyboard navigation
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "ArrowLeft") {
+        event.preventDefault()
+        const prevPageIndex = Math.max(currentPage - 1, 0)
+        scrollToPage(prevPageIndex)
+      } else if (event.key === "ArrowRight") {
+        event.preventDefault()
+        const nextPageIndex = Math.min(currentPage + 1, totalPages - 1)
+        scrollToPage(nextPageIndex)
+      }
+    }
+
+    document.addEventListener("keydown", handleKeyDown)
+    return () => document.removeEventListener("keydown", handleKeyDown)
+  }, [currentPage, totalPages, scrollToPage])
 
   return (
     <div className="min-h-screen">
@@ -87,18 +133,6 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
                 <div className="text-gray-300 text-sm">Markets (U.S. & India)</div>
               </motion.div>
             </div>
-            {/* TODO: Add Placeholder Reminders */}
-            <div className="bg-yellow-600/20 border border-yellow-500/30 rounded-lg p-4 mb-8">
-              <div className="flex items-center gap-2 text-yellow-400">
-                <span className="text-lg">📋</span>
-                <span className="font-semibold">Content Updates Needed:</span>
-              </div>
-              <div className="text-yellow-300 text-sm mt-2">
-                • Add specific project achievements and metrics to each experience<br/>
-                • Include detailed project highlights and case studies<br/>
-                • Add visual project galleries and documentation
-              </div>
-            </div>
           </motion.div>
         </div>
       </section>
@@ -129,20 +163,79 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
             ))}
           </motion.div>
 
-          {/* Experience Grid */}
+          {/* Experience Carousel */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6"
+            className="relative"
           >
-            {filteredExperiences.map((experience, index) => (
-              <ProfileCard
-                key={experience.slug}
-                experience={experience}
-                index={index}
-              />
-            ))}
+            {/* Navigation Buttons */}
+            <div className="flex items-center justify-between mb-8">
+              <div className="flex gap-2">
+                <button
+                  onClick={prevPage}
+                  disabled={currentPage === 0}
+                  className="p-3 rounded-full bg-white/10 text-white hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors focus:outline-none focus:ring-2 focus:ring-rose-500"
+                  aria-label="Previous page"
+                >
+                  <ChevronLeft className="w-6 h-6" />
+                </button>
+                <button
+                  onClick={nextPage}
+                  disabled={currentPage === totalPages - 1}
+                  className="p-3 rounded-full bg-white/10 text-white hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors focus:outline-none focus:ring-2 focus:ring-rose-500"
+                  aria-label="Next page"
+                >
+                  <ChevronRight className="w-6 h-6" />
+                </button>
+              </div>
+              {/* Dots Indicator */}
+              <div className="flex gap-2">
+                {Array.from({ length: totalPages }).map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => scrollToPage(index)}
+                    className={`w-2 h-2 rounded-full transition-all ${
+                      index === currentPage
+                        ? "bg-rose-500 w-8"
+                        : "bg-white/30 hover:bg-white/50"
+                    }`}
+                    aria-label={`Go to page ${index + 1}`}
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* Carousel Container */}
+            <div
+              ref={scrollRef}
+              className="flex gap-6 overflow-x-auto overflow-y-visible scrollbar-hide snap-x snap-mandatory px-2 -mx-2 pb-4"
+              style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+              onScroll={(e) => {
+                const container = e.currentTarget
+                const itemWidth = container.children[0]?.clientWidth || 0
+                const gap = 24
+                const scrollPosition = container.scrollLeft
+                const pageWidth = cardsPerPage * (itemWidth + gap)
+                const pageIndex = Math.round(scrollPosition / pageWidth)
+                if (pageIndex !== currentPage && pageIndex >= 0 && pageIndex < totalPages) {
+                  setCurrentPage(pageIndex)
+                }
+              }}
+            >
+              {filteredExperiences.map((experience, index) => (
+                <div
+                  key={experience.slug}
+                  className="flex-shrink-0 w-[calc(100%-2rem)] sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] snap-center"
+                >
+                  <ProfileCard
+                    experience={experience}
+                    index={index}
+                  />
+                </div>
+              ))}
+            </div>
           </motion.div>
 
           {filteredExperiences.length === 0 && (

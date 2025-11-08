@@ -96,7 +96,7 @@ export default function ProjectsPageClient({ projects, categories }: ProjectsPag
           >
             <h2 className="text-4xl font-bold text-white mb-6">Interested in Collaborating?</h2>
             <p className="text-gray-300 mb-8 text-lg">
-              I'm always looking for exciting new projects and opportunities to create something amazing.
+              I&apos;m always looking for exciting new projects and opportunities to create something amazing.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/contact" className="inline-flex">

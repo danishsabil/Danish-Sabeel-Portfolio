@@ -25,8 +25,8 @@ export default function ProfileCard({ experience, index }: ProfileCardProps) {
         className="block focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 focus:ring-offset-black rounded-lg"
         aria-label={`View details for ${experience.title} - ${experience.role}`}
       >
-        <Card className="overflow-hidden border-0 bg-gradient-to-b from-gray-900 to-black card-hover">
-          <div className="relative aspect-[3/4] overflow-hidden">
+        <Card className="overflow-hidden border-0 bg-gradient-to-b from-gray-900 to-black card-hover h-full">
+          <div className="relative aspect-[3/4] overflow-hidden min-h-[350px] md:min-h-[400px]">
             <Image
               src={experience.poster}
               alt={`${experience.title} poster showing professional work environment`}
@@ -37,8 +37,8 @@ export default function ProfileCard({ experience, index }: ProfileCardProps) {
             />
             
             {/* Logo overlay */}
-            <div className="absolute top-4 left-4 z-10">
-              <div className="relative w-12 h-12">
+            <div className="absolute top-3 left-3 z-10">
+              <div className="relative w-12 h-12 md:w-14 md:h-14">
                 <Image
                   src={experience.logo}
                   alt={`${experience.title} company logo`}
@@ -52,12 +52,12 @@ export default function ProfileCard({ experience, index }: ProfileCardProps) {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
             
             {/* Content overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <h3 className="text-xl font-bold mb-2 group-hover:text-rose-400 transition-colors">
+            <div className="absolute bottom-0 left-0 right-0 p-4 md:p-5 text-white">
+              <h3 className="text-lg md:text-xl font-bold mb-1 group-hover:text-rose-400 transition-colors">
                 {experience.title}
               </h3>
-              <p className="text-sm text-gray-300 mb-1">{experience.role}</p>
-              <p className="text-xs text-gray-400">{experience.period}</p>
+              <p className="text-sm md:text-base text-gray-300 mb-1">{experience.role}</p>
+              <p className="text-xs md:text-sm text-gray-400">{experience.period}</p>
             </div>
           </div>
         </Card>

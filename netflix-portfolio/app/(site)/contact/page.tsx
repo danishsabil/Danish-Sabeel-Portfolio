@@ -77,7 +77,7 @@ export default function ContactPage() {
               Get In <span className="text-gradient">Touch</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Ready to discuss your next construction project? I'm always excited to 
+              Ready to discuss your next construction project? I&apos;m always excited to 
               explore new opportunities and innovative solutions.
             </p>
           </motion.div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="text-white text-2xl">Send a Message</CardTitle>
                   <p className="text-gray-400">
-                    Fill out the form below and I'll get back to you within 24 hours.
+                    Fill out the form below and I&apos;ll get back to you within 24 hours.
                   </p>
                 </CardHeader>
                 <CardContent>
@@ -191,9 +191,9 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-3xl font-bold text-white mb-6">Contact Information</h2>
                 <p className="text-gray-300 mb-8 leading-relaxed">
-                  I'm always interested in new opportunities and exciting projects. 
-                  Whether you're looking for project management expertise, curtain wall 
-                  consultation, or innovative construction solutions, I'd love to hear from you.
+                  I&apos;m always interested in new opportunities and exciting projects. 
+                  Whether you&apos;re looking for project management expertise, curtain wall 
+                  consultation, or innovative construction solutions, I&apos;d love to hear from you.
                 </p>
               </div>
 
@@ -264,7 +264,7 @@ export default function ContactPage() {
           >
             <h2 className="text-4xl font-bold text-white mb-6">Ready to Start Your Project?</h2>
             <p className="text-gray-300 mb-8 text-lg">
-              Let's discuss how I can help bring your construction vision to life 
+              Let&apos;s discuss how I can help bring your construction vision to life 
               with innovative solutions and expert project management.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

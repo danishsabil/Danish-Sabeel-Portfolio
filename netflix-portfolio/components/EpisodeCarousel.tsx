@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Episode } from "@/lib/types"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect, useCallback } from "react"
 
 interface EpisodeCarouselProps {
   episodes: Episode[]
@@ -15,7 +15,7 @@ export default function EpisodeCarousel({ episodes }: EpisodeCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const scrollRef = useRef<HTMLDivElement>(null)
 
-  const scrollToIndex = (index: number) => {
+  const scrollToIndex = useCallback((index: number) => {
     if (scrollRef.current) {
       const container = scrollRef.current
       const itemWidth = container.children[0]?.clientWidth || 0
@@ -23,17 +23,17 @@ export default function EpisodeCarousel({ episodes }: EpisodeCarouselProps) {
       container.scrollTo({ left: scrollLeft, behavior: "smooth" })
     }
     setCurrentIndex(index)
-  }
+  }, [])
 
-  const nextEpisode = () => {
+  const nextEpisode = useCallback(() => {
     const nextIndex = Math.min(currentIndex + 1, episodes.length - 1)
     scrollToIndex(nextIndex)
-  }
+  }, [currentIndex, episodes.length, scrollToIndex])
 
-  const prevEpisode = () => {
+  const prevEpisode = useCallback(() => {
     const prevIndex = Math.max(currentIndex - 1, 0)
     scrollToIndex(prevIndex)
-  }
+  }, [currentIndex, scrollToIndex])
 
   // Handle keyboard navigation
   useEffect(() => {
@@ -49,7 +49,7 @@ export default function EpisodeCarousel({ episodes }: EpisodeCarouselProps) {
 
     document.addEventListener("keydown", handleKeyDown)
     return () => document.removeEventListener("keydown", handleKeyDown)
-  }, [currentIndex, episodes.length])
+  }, [nextEpisode, prevEpisode])
 
   return (
     <div className="relative">

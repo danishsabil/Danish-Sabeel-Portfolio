@@ -103,7 +103,7 @@ export default function AboutPage() {
               <div className="flex justify-center lg:justify-end">
                 <div className="relative w-full h-[500px] lg:h-[600px]">
                   <Image
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop"
+                    src="/images/professional headshot.png"
                     alt="Danish Sabeel"
                     fill
                     className="rounded-2xl object-cover border-4 border-rose-500/20 shadow-2xl"
@@ -134,7 +134,7 @@ export default function AboutPage() {
                   Currently an Assistant Project Manager at Island Exterior Fabricators, I support large-scale curtain wall projects by managing schedules, logistics, RFIs, change orders, and design-assist coordination. Previously, I led residential and commercial projects in India, overseeing subcontractor teams of 10–20 while driving efficiency through lean construction practices and delivering projects on time and within budget.
                 </p>
                 <p>
-                  I hold a Master's in Project Management from Boston University (GPA: 3.6) and a Bachelor's in Architecture from Aayojan School of Architecture, along with certifications in CAPM (PMI), Scrum Master (Scrum Inc.), and Construction Management (Scheduling & Estimation). I focus on developing practical solutions that align design intent with on-site realities, ensuring projects run efficiently and meet client expectations.
+                  I hold a Master&apos;s in Project Management from Boston University (GPA: 3.6) and a Bachelor&apos;s in Architecture from Aayojan School of Architecture, along with certifications in CAPM (PMI), Scrum Master (Scrum Inc.), and Construction Management (Scheduling & Estimation). I focus on developing practical solutions that align design intent with on-site realities, ensuring projects run efficiently and meet client expectations.
                 </p>
                 <Separator className="bg-white/10" />
                 <h3 className="text-2xl font-semibold text-white">Education</h3>
@@ -224,10 +224,10 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="max-w-2xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-white mb-6">Let's Work Together</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Let&apos;s Work Together</h2>
             <p className="text-gray-300 mb-8 text-lg">
-              I'm always interested in new opportunities and exciting projects. 
-              Let's discuss how I can contribute to your next construction project.
+              I&apos;m always interested in new opportunities and exciting projects. 
+              Let&apos;s discuss how I can contribute to your next construction project.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/Resume_DanishSabeel.pdf" target="_blank" rel="noopener" className="inline-flex">

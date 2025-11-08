@@ -68,14 +68,16 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
             </div>
 
             {/* Title */}
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 max-w-4xl leading-tight">
-              {project.title}
-            </h1>
-            {project.subtitle && (
-              <h2 className="text-xl md:text-2xl text-gray-300 mb-6 max-w-3xl">
-                {project.subtitle}
-              </h2>
-            )}
+            <div className="bg-black/70 backdrop-blur-sm rounded-lg p-6 mb-4 inline-block">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-2 leading-tight">
+                {project.title}
+              </h1>
+              {project.subtitle && (
+                <h2 className="text-xl md:text-2xl text-white/90">
+                  {project.subtitle}
+                </h2>
+              )}
+            </div>
 
             {/* Meta Info */}
             <div className="flex flex-wrap gap-6 mb-6">
@@ -104,9 +106,11 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
             </div>
 
             {/* Description */}
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl leading-relaxed">
-              {project.description}
-            </p>
+            <div className="bg-black/60 backdrop-blur-sm rounded-lg p-6 mb-8 max-w-3xl">
+              <p className="text-lg text-white leading-relaxed">
+                {project.description}
+              </p>
+            </div>
 
             {/* Tags */}
             <div className="flex flex-wrap gap-2 mb-8">

@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,7 +15,7 @@ export default function NotFound() {
           </div>
           <CardTitle className="text-white text-2xl">Page Not Found</CardTitle>
           <CardDescription className="text-gray-400">
-            The experience you're looking for doesn't exist in our catalog.
+            The experience you&apos;re looking for doesn&apos;t exist in our catalog.
           </CardDescription>
         </CardHeader>
         <CardContent className="text-center space-y-4">
