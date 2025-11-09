@@ -245,6 +245,44 @@
       "tags": ["Architecture", "Climate-Responsive Design", "Residential", "Passive Solar", "Sustainable Design", "Modern Architecture", "Family Home"]
     },
     {
+      "id": "tiger-hill-residence",
+      "slug": "tiger-hill-residence-udaipur",
+      "title": "Tiger Hill Residence",
+      "subtitle": "Contemporary Family Home",
+      "location": "Tiger Hills, Udaipur, Rajasthan, India",
+      "year": "2024",
+      "value": "$90,000",
+      "category": "Architecture",
+      "experienceSlug": "black-box-architects",
+      "status": "Completed",
+      "hero": "/images/projects/Tiger Hill-Residence/image-1.png",
+      "images": [
+        "/images/projects/Tiger Hill-Residence/image-1.png",
+        "/images/projects/Tiger Hill-Residence/image-2.jpg",
+        "/images/projects/Tiger Hill-Residence/image-3.jpg",
+        "/images/projects/Tiger Hill-Residence/image-4.jpg",
+        "/images/projects/Tiger Hill-Residence/image-5.png",
+        "/images/projects/Tiger Hill-Residence/image-6.png"
+      ],
+      "description": "Located in the picturesque Tiger Hills area of Udaipur, this compact residence was designed as a contemporary family home that embraces simplicity, functionality, and warmth. With a total project budget of approximately $90,000, the house was envisioned to deliver modern comfort within a modest footprint while responding sensitively to the surrounding natural terrain.\n\nThe design follows a minimal yet expressive architectural language, combining white rendered surfaces, natural stone cladding, and warm wooden textures to create a timeless aesthetic. The stone-clad vertical element on the façade not only anchors the visual composition but also adds an earthy tactility that harmonizes with the site's hilly backdrop. Large glazed openings ensure ample natural light and cross ventilation, connecting the interior spaces to the landscaped front garden.\n\nSpatially, the layout is organized for maximum efficiency and openness. The ground floor accommodates the living, dining, and kitchen areas along with a guest bedroom, creating a free-flowing public zone connected to the outdoors. The upper floor houses three bedrooms—each with an attached toilet and wardrobe space—designed to maintain privacy while framing outward views of the neighborhood and nearby hills.\n\nThe interior design continues the same restrained material palette, featuring textured plaster walls, warm wooden tones, and soft neutral furnishings to evoke calmness and comfort. Natural light filters through sheer curtains, casting gentle shadows that enhance the tactile quality of materials.\n\nOverall, the project reflects a context-driven and cost-conscious design approach, where thoughtful planning, balanced proportions, and honest material use converge to create a comfortable, elegant home that resonates with its setting.",
+      "scope": "Complete architectural design for contemporary family residence in Tiger Hills, Udaipur. Site analysis and response to natural terrain. Development of minimal yet expressive architectural language combining white rendered surfaces, natural stone cladding, and warm wooden textures. Design of stone-clad vertical façade element for visual anchoring and earthy tactility. Integration of large glazed openings for natural light and cross ventilation. Ground floor planning for living, dining, kitchen, and guest bedroom creating free-flowing public zone. Upper floor design with three bedrooms, each with attached toilet and wardrobe space. Interior design with restrained material palette including textured plaster walls, warm wooden tones, and soft neutral furnishings. Landscape design integrating front garden connection. Cost-conscious design approach within $90,000 budget.",
+      "challenges": "Designing a compact residence that delivers modern comfort within a modest footprint while responding sensitively to surrounding natural terrain. Creating a minimal yet expressive architectural language that balances simplicity with warmth and functionality. Integrating large glazed openings for natural light and ventilation while maintaining privacy and thermal comfort. Organizing spatial layout for maximum efficiency and openness within compact footprint. Balancing cost-conscious design approach with quality materials and thoughtful detailing. Ensuring interior design maintains restrained material palette while evoking calmness and comfort. Harmonizing architectural design with hilly backdrop and natural setting.",
+      "solutions": "Developed context-driven design approach that responds sensitively to Tiger Hills terrain while maximizing functionality within modest footprint. Created minimal yet expressive architectural language combining white rendered surfaces, natural stone cladding, and warm wooden textures for timeless aesthetic. Designed stone-clad vertical façade element that anchors visual composition and adds earthy tactility harmonizing with hilly backdrop. Strategically placed large glazed openings to ensure ample natural light and cross ventilation while connecting interior spaces to landscaped front garden. Organized ground floor as free-flowing public zone with living, dining, kitchen, and guest bedroom connected to outdoors. Designed upper floor with three bedrooms maintaining privacy while framing outward views of neighborhood and nearby hills. Continued restrained material palette in interior design with textured plaster walls, warm wooden tones, and soft neutral furnishings. Utilized natural light filtering through sheer curtains to enhance tactile quality of materials. Achieved cost-conscious design within $90,000 budget through thoughtful planning, balanced proportions, and honest material use, creating comfortable and elegant home that resonates with its setting.",
+      "specifications": {
+        "projectType": "Contemporary Family Residence",
+        "projectBudget": "$90,000 USD",
+        "location": "Tiger Hills, Udaipur, Rajasthan, India",
+        "architecturalStyle": "Minimal yet expressive contemporary design",
+        "keyDesignFeatures": ["Stone-clad vertical façade element", "Large glazed openings", "Free-flowing public zone", "Three bedrooms with attached facilities", "Landscaped front garden connection"],
+        "materialPalette": ["White rendered surfaces", "Natural stone cladding", "Warm wooden textures", "Textured plaster walls", "Soft neutral furnishings"],
+        "spatialOrganization": "Ground floor: Living, dining, kitchen, guest bedroom | Upper floor: Three bedrooms with attached toilets and wardrobes",
+        "lightingStrategy": "Ample natural light through large glazed openings, natural light filtering through sheer curtains",
+        "ventilationStrategy": "Cross ventilation through large glazed openings",
+        "designApproach": "Context-driven and cost-conscious design with thoughtful planning, balanced proportions, and honest material use"
+      },
+      "tags": ["Architecture", "Residential", "Contemporary Design", "Family Home", "Udaipur", "Cost-Conscious Design", "Minimal Design"]
+    },
+    {
       "id": "commercial-center-pune",
       "slug": "commercial-center-pune-jayaerem",
       "title": "Multistory Commercial Center",
@@ -284,30 +322,32 @@
       "id": "residential-highrise-pune",
       "slug": "residential-highrise-pune-jayaerem",
       "title": "Residential Highrise",
-      "subtitle": "Facade Design Visualization",
+      "subtitle": "High-Rise Elevation Design & Visualization",
       "location": "Pune, Maharashtra, India",
       "year": "2019-2021",
-      "value": "Variable",
+      "value": "$2,800",
       "category": "3D Visualization",
       "experienceSlug": "blackbox-visuals",
       "status": "Completed",
-      "hero": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&h=1080&fit=crop",
+      "hero": "/images/projects/Highrise-residential/image-1.png",
       "images": [
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop"
+        "/images/projects/Highrise-residential/image-1.png",
+        "/images/projects/Highrise-residential/image-2.png",
+        "/images/projects/Highrise-residential/image-3.png"
       ],
-      "description": "Delivered facade design visualization services for a residential highrise project. Created comprehensive 3D models and renderings showcasing facade design options, enabling architects to effectively communicate design intent to clients and stakeholders.",
-      "scope": "Facade design consultation, 3D modeling of residential highrise facade, multiple design option visualization, realistic rendering with environmental context, design iteration support.",
-      "challenges": "Creating visualizations that accurately represented the scale and proportions of a highrise building. Balancing residential aesthetic requirements with practical facade considerations. Presenting design options in a way that facilitated clear decision-making.",
-      "solutions": "Developed detailed 3D models that accurately captured building scale and facade details. Created multiple rendering perspectives including street view, aerial views, and detail shots. Implemented realistic lighting and material representation to showcase design options effectively.",
+      "description": "This project was developed in collaboration with JayAeram Architects, Pune, where I was responsible for the conceptual elevation design and realistic 3D visualization of a high-rise residential tower. The goal was to support the architects in the concept development and bid-winning process by creating visuals that effectively communicated the design intent and spatial experience to the client.\n\nWorking from early design sketches and massing concepts, I developed the façade articulation, lighting mood, and material expression to emphasize the building's verticality and elegance. The visual narrative focused on presenting the tower as a modern, context-responsive structure, combining clean geometry with warm tones and refined proportions.\n\nThe rendered views captured different daylight settings—highlighting material contrast, reflective balance, and the grand arrival experience at the entrance podium. These visuals played a key role in enabling the architects to align the client's vision with the design intent, ultimately contributing to the successful approval and selection of the proposal during the competition phase.",
+      "scope": "Conceptual elevation design and realistic 3D visualization for high-rise residential tower in collaboration with JayAeram Architects. Development of façade articulation, lighting mood, and material expression from early design sketches and massing concepts. Creation of visual narrative emphasizing verticality, elegance, and context-responsive design. Production of rendered views capturing different daylight settings, material contrast, and reflective balance. Visualization of grand arrival experience at entrance podium. Support for concept development and bid-winning process through effective communication of design intent and spatial experience.",
+      "challenges": "Translating early design sketches and massing concepts into detailed façade articulation that emphasized verticality and elegance. Developing lighting mood and material expression that balanced modern aesthetics with context-responsive design. Creating visualizations that effectively communicated design intent and spatial experience to support bid-winning process. Capturing different daylight settings to highlight material contrast, reflective balance, and entrance podium experience. Ensuring visuals aligned client's vision with architectural design intent during competition phase.",
+      "solutions": "Developed comprehensive approach to conceptual elevation design, working closely with architects to translate early sketches into detailed façade articulation. Created sophisticated lighting environments and material expressions that emphasized the building's verticality and elegance while maintaining modern, context-responsive character. Produced multiple rendered views capturing different daylight settings to showcase material contrast, reflective balance, and spatial experience. Focused visual narrative on presenting the tower as a refined structure combining clean geometry with warm tones and balanced proportions. Delivered high-quality visuals that effectively communicated design intent, ultimately contributing to successful approval and selection during competition phase.",
       "specifications": {
         "projectType": "Residential Highrise",
-        "services": "Facade Design Visualization, 3D Modeling",
-        "deliverables": "3D Models, High-Resolution Renderings, Design Option Comparisons",
-        "pricingModel": "Flat fee for renders, variable fee for modeling based on scope",
-        "architect": "Jay Aerem Architects, Pune"
+        "services": "Conceptual Elevation Design, 3D Visualization, Façade Articulation",
+        "deliverables": "3D Models, High-Resolution Renderings, Daylight Studies, Material Studies, Entrance Podium Visualizations",
+        "projectBudget": "$2,800",
+        "architect": "JayAeram Architects, Pune",
+        "designFocus": "Verticality, elegance, context-responsive design, material contrast, reflective balance"
       },
-      "tags": ["3D Visualization", "Facade Design", "Residential", "Highrise", "Architectural Consultation"]
+      "tags": ["3D Visualization", "Facade Design", "Residential", "Highrise", "Elevation Design", "Architectural Visualization"]
     },
     {
       "id": "office-complex-mathur",
@@ -351,30 +391,39 @@
       "slug": "residential-interior-mathur",
       "title": "Residential Interior",
       "subtitle": "Interior Visualization & Design Consultation",
-      "location": "India",
-      "year": "2019-2021",
+      "location": "",
+      "year": "2021-2023",
       "value": "Variable",
       "category": "3D Visualization",
       "experienceSlug": "blackbox-visuals",
       "status": "Completed",
-      "hero": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&h=1080&fit=crop",
+      "hero": "/images/projects/Residential-Interiors/image-1.jpg",
       "images": [
-        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1920&h=1080&fit=crop",
-        "https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=1920&h=1080&fit=crop"
+        "/images/projects/Residential-Interiors/image-1.jpg",
+        "/images/projects/Residential-Interiors/image-2.jpg",
+        "/images/projects/Residential-Interiors/image-3.jpg",
+        "/images/projects/Residential-Interiors/image-4.jpg",
+        "/images/projects/Residential-Interiors/image-5.jpg",
+        "/images/projects/Residential-Interiors/image-6.jpg",
+        "/images/projects/Residential-Interiors/image-7.jpg",
+        "/images/projects/Residential-Interiors/image-8.jpg",
+        "/images/projects/Residential-Interiors/image-9.jpg",
+        "/images/projects/Residential-Interiors/image-10.jpg"
       ],
-      "description": "Delivered interior visualization and design consultation services for a residential project. Created detailed 3D interior models and photorealistic renderings that enabled clients to visualize design concepts and make informed decisions about interior spaces, materials, and finishes.",
-      "scope": "Interior design consultation, 3D modeling of residential interior spaces, material and finish visualization, realistic rendering with lighting simulation, design option presentations.",
-      "challenges": "Capturing the ambiance and spatial quality of interior spaces in 3D visualization. Accurately representing materials, textures, and lighting conditions. Creating renderings that helped clients understand design intent and make confident decisions.",
-      "solutions": "Utilized advanced lighting simulation techniques to create realistic interior ambiance. Developed detailed material libraries to accurately represent finishes and textures. Created multiple camera angles and perspectives to comprehensively showcase interior design concepts. Provided design consultation support to refine interior layouts and material selections.",
+      "description": "A collection of residential interior projects undertaken in collaboration with various architects and clients, providing design consultation, spatial coordination, and interior visualization aligned with architectural concepts and client aspirations. Each project translated client requirements into realistic interior settings through detailed 3D visualizations, material studies, and natural light integration, creating visually refined and livable environments.\n\nThrough interpretation of reference imagery, plan drawings, and design intent, I developed cohesive interior compositions that reflected comfort, elegance, and functional clarity while maintaining consistency with overall architectural language. The design process focused on balanced color palettes and material warmth to create spaces that bridge communication between clients and architects.\n\nThe final visuals were used for client approvals, marketing publications, and presentation portfolios, highlighting design character, texture, and lighting quality. This body of work demonstrates a human-centered approach to residential design—where spatial experience, material harmony, and realistic visualization come together to narrate the essence of everyday luxury and comfort.",
+      "scope": "Design consultation and spatial coordination for residential interior projects in collaboration with various architects and clients. Interpretation of reference imagery, plan drawings, and design intent to develop cohesive interior compositions. Development of realistic interior settings that maintain consistency with overall architectural language. Integration of natural light, balanced color palettes, and material warmth. Creation of detailed 3D visualizations and material studies. Client communication and design decision facilitation. Production of visuals for client approvals, marketing publications, and presentation portfolios.",
+      "challenges": "Interpreting diverse design intents from various architects and translating them into cohesive interior compositions. Balancing client aspirations with architectural concepts while maintaining design integrity. Creating realistic interior settings that reflect comfort, elegance, and functional clarity. Ensuring consistency with overall architectural language across different projects. Integrating natural light effectively while maintaining balanced color palettes and material warmth. Bridging communication between clients and architects to ensure design decisions are clearly understood before execution.",
+      "solutions": "Developed systematic approach to interpreting reference imagery, plan drawings, and design intent, treating each project as a unique design exercise. Created cohesive interior compositions that reflected comfort, elegance, and functional clarity while maintaining consistency with architectural language. Focused on integration of natural light, balanced color palettes, and material warmth to create visually refined and livable environments. Produced detailed 3D visualizations and material studies that effectively communicated design character, texture, and lighting quality. Established clear communication channels between clients and architects, ensuring every design decision was understood before execution. Delivered high-quality visuals used for client approvals, marketing publications, and presentation portfolios, demonstrating a human-centered approach to residential design.",
       "specifications": {
-        "projectType": "Residential Interior",
-        "services": "Interior Visualization, Design Consultation",
-        "deliverables": "3D Interior Models, Photorealistic Renderings, Material Visualizations",
-        "pricingModel": "Flat fee for renders, variable fee for modeling based on scope",
-        "architect": "Sanjay Mathur Associates"
+        "projectType": "Residential Interior Visualization & Design Consultation",
+        "services": "Design Consultation, Spatial Coordination, Interior Visualization, 3D Modeling, Material Studies",
+        "deliverables": "3D Interior Visualizations, Material Studies, Design Consultation Reports, Client Presentation Packages, Marketing Visuals, Portfolio Images",
+        "designApproach": "Human-centered design focusing on spatial experience, material harmony, and realistic visualization",
+        "keyFocusAreas": ["Natural light integration", "Balanced color palettes", "Material warmth", "Functional clarity", "Visual refinement", "Livable environments"],
+        "clientUse": "Client approvals, marketing publications, presentation portfolios",
+        "collaboration": "Various architects and clients"
       },
-      "tags": ["3D Visualization", "Interior Design", "Residential", "Interior Consultation", "Rendering"]
+      "tags": ["3D Visualization", "Interior Design", "Residential", "Interior Consultation", "Rendering", "Design Consultation", "Spatial Coordination"]
     },
     {
       "id": "mixed-use-residence-corner",

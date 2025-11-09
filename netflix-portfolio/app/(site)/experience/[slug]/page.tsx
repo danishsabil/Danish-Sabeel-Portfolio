@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react"
 import { getExperienceBySlug, getRelatedExperiences, getProjectsByExperience } from "@/lib/data"
 import ExperienceHero from "@/components/ExperienceHero"
 import EpisodeCarousel from "@/components/EpisodeCarousel"
-import ProfileCard from "@/components/ProfileCard"
+import MoreLikeThisCarousel from "@/components/MoreLikeThisCarousel"
 import ProjectCard from "@/components/ProjectCard"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
@@ -66,7 +66,7 @@ export default async function ExperiencePage({ params }: ExperiencePageProps) {
       <ExperienceHero experience={experience} />
 
       {/* Content Section */}
-      <div className="container mx-auto px-6 py-16">
+      <div className="container mx-auto px-4 md:px-6 py-16">
         {/* Episodes */}
         <section className="mb-16">
           <EpisodeCarousel episodes={experience.episodes} />
@@ -96,15 +96,7 @@ export default async function ExperiencePage({ params }: ExperiencePageProps) {
         {relatedExperiences.length > 0 && (
           <section>
             <h3 className="text-3xl font-bold text-white mb-8">More Like This</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {relatedExperiences.map((relatedExp, index) => (
-                <ProfileCard
-                  key={relatedExp.slug}
-                  experience={relatedExp}
-                  index={index}
-                />
-              ))}
-            </div>
+            <MoreLikeThisCarousel experiences={relatedExperiences} />
           </section>
         )}
 

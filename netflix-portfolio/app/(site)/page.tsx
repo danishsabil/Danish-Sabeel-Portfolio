@@ -43,7 +43,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-gray-900 via-black to-gray-900">
+      <section className="relative py-12 bg-gradient-to-br from-gray-900 via-black to-gray-900">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -57,13 +57,11 @@ export default function AboutPage() {
                 <h1 className="text-6xl md:text-8xl font-bold text-white mb-2">
                   Danish <span className="text-gradient">Sabeel</span>
                 </h1>
-                <p className="text-sm text-gray-400 mb-6 font-medium">
+                <p className="text-sm text-gray-400 mb-4 font-medium">
                   Architect | Construction Manager | Facade and Curtain Walls
                 </p>
-                <p className="text-lg text-gray-300 mb-8 leading-relaxed max-w-lg">
-                  Project Management professional with a background in architecture and construction management, experienced in delivering projects from $2M to $60M across the U.S. and India.
-                  Currently an Assistant Project Manager at Island Exterior Fabricators, specializing in façade and curtain wall systems.
-                  Combining design insight with on-site execution, I create practical, efficient solutions that drive quality and timely project delivery.
+                <p className="text-base md:text-lg text-gray-300 mb-6 leading-relaxed max-w-lg">
+                  Project Management professional with architecture and construction management expertise, delivering projects from $2M to $60M across the U.S. and India. Currently Assistant Project Manager at Island Exterior Fabricators, specializing in façade and curtain wall systems.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-8">
                   <div className="flex items-center gap-2 text-gray-300">
@@ -117,7 +115,7 @@ export default function AboutPage() {
 
       {/* Bio Section */}
       <section className="py-20">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Bio Text */}
             <motion.div
@@ -178,7 +176,7 @@ export default function AboutPage() {
 
       {/* Achievements */}
       <section className="py-20 bg-gray-900/50">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -217,7 +215,7 @@ export default function AboutPage() {
 
       {/* Contact CTA */}
       <section className="py-20">
-        <div className="container mx-auto px-6 text-center">
+        <div className="container mx-auto px-4 md:px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

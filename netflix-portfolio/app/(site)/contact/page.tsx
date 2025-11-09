@@ -65,7 +65,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-gray-900 via-black to-gray-900">
+      <section className="relative py-12 bg-gradient-to-br from-gray-900 via-black to-gray-900">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -73,10 +73,10 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
               Get In <span className="text-gradient">Touch</span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
               Ready to discuss your next construction project? I&apos;m always excited to 
               explore new opportunities and innovative solutions.
             </p>
@@ -86,7 +86,7 @@ export default function ContactPage() {
 
       {/* Contact Content */}
       <section className="py-20">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <motion.div

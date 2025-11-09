@@ -64,7 +64,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       <ProjectHero project={project} />
 
       {/* Content Section */}
-      <div className="container mx-auto px-6 py-16">
+      <div className="container mx-auto px-4 md:px-6 py-16">
         {/* Project Details Grid */}
         <div className="grid lg:grid-cols-3 gap-12 mb-16">
           {/* Main Content - Left 2/3 */}

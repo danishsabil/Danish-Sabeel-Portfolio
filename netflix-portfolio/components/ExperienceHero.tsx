@@ -13,7 +13,7 @@ interface ExperienceHeroProps {
 
 export default function ExperienceHero({ experience }: ExperienceHeroProps) {
   return (
-    <div className="relative min-h-[70vh]">
+    <div className="relative min-h-[50vh]">
       {/* Backdrop Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -27,8 +27,8 @@ export default function ExperienceHero({ experience }: ExperienceHeroProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 min-h-[70vh] flex items-end">
-        <div className="container mx-auto px-6 pb-8 md:pb-16 w-full">
+      <div className="relative z-10 min-h-[50vh] flex items-end">
+        <div className="container mx-auto px-6 pb-6 md:pb-12 w-full">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -48,12 +48,14 @@ export default function ExperienceHero({ experience }: ExperienceHeroProps) {
             </div>
 
             {/* Title and Role */}
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-              {experience.title}
-            </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
-              {experience.role}
-            </h2>
+            <div className="bg-black/70 backdrop-blur-sm rounded-lg p-4 md:p-6 mb-4 inline-block">
+              <h1 className="text-5xl md:text-7xl font-bold text-white mb-2">
+                {experience.title}
+              </h1>
+              <h2 className="text-xl md:text-2xl text-white/90">
+                {experience.role}
+              </h2>
+            </div>
 
             {/* Meta Info */}
             <div className="flex flex-wrap gap-4 mb-6">
@@ -68,9 +70,11 @@ export default function ExperienceHero({ experience }: ExperienceHeroProps) {
             </div>
 
             {/* Summary */}
-            <p className="text-lg text-gray-300 mb-8 max-w-2xl leading-relaxed">
-              {experience.summary}
-            </p>
+            <div className="bg-black/60 backdrop-blur-sm rounded-lg p-4 md:p-6 mb-8 max-w-2xl">
+              <p className="text-base md:text-lg text-white leading-relaxed">
+                {experience.summary}
+              </p>
+            </div>
 
             {/* Skills */}
             <div className="flex flex-wrap gap-2 mb-8">

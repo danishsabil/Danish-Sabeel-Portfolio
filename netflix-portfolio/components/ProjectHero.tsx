@@ -14,7 +14,7 @@ interface ProjectHeroProps {
 
 export default function ProjectHero({ project }: ProjectHeroProps) {
   return (
-    <div className="relative min-h-[70vh]">
+    <div className="relative min-h-[50vh]">
       {/* Hero Image */}
       <div className="absolute inset-0 z-0">
         {project.hero ? (
@@ -34,8 +34,8 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 min-h-[70vh] flex items-end">
-        <div className="container mx-auto px-6 pt-20 pb-8 md:pb-16 w-full">
+      <div className="relative z-10 min-h-[50vh] flex items-end">
+        <div className="container mx-auto px-6 pt-12 pb-6 md:pb-12 w-full">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -107,8 +107,20 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
 
             {/* Description */}
             <div className="bg-black/60 backdrop-blur-sm rounded-lg p-6 mb-8 max-w-3xl">
-              <p className="text-lg text-white leading-relaxed">
-                {project.description}
+              <p className="text-base md:text-lg text-white leading-relaxed">
+                {(() => {
+                  const firstParagraph = project.description.split('\n\n')[0]
+                  if (firstParagraph.length <= 280) return firstParagraph
+                  // Find the last sentence ending before 280 characters
+                  const truncated = firstParagraph.substring(0, 280)
+                  const lastPeriod = truncated.lastIndexOf('.')
+                  const lastExclamation = truncated.lastIndexOf('!')
+                  const lastQuestion = truncated.lastIndexOf('?')
+                  const lastSentenceEnd = Math.max(lastPeriod, lastExclamation, lastQuestion)
+                  return lastSentenceEnd > 100 
+                    ? truncated.substring(0, lastSentenceEnd + 1)
+                    : truncated + '...'
+                })()}
               </p>
             </div>
 

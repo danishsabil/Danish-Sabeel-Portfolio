@@ -40,7 +40,7 @@ export default function ProjectsPageClient({ projects, categories }: ProjectsPag
   return (
     <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-gray-900 via-black to-gray-900">
+      <section className="relative py-12 bg-gradient-to-br from-gray-900 via-black to-gray-900">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -48,10 +48,10 @@ export default function ProjectsPageClient({ projects, categories }: ProjectsPag
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
               My <span className="text-gradient">Projects</span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
               A collection of my work spanning curtain wall systems, architecture, 3D visualization, 
               and academic research. Each project represents a unique challenge and innovative solution.
             </p>
@@ -86,7 +86,7 @@ export default function ProjectsPageClient({ projects, categories }: ProjectsPag
 
       {/* Projects Grid */}
       <section className="py-20 relative z-10">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 md:px-6">
           {filteredProjects.length === 0 ? (
             <div className="text-center py-20">
               <p className="text-gray-400 text-lg">

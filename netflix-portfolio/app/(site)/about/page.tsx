@@ -42,7 +42,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-gray-900 via-black to-gray-900">
+      <section className="relative py-12 bg-gradient-to-br from-gray-900 via-black to-gray-900">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <div className="relative w-32 h-32 mx-auto mb-8">
+            <div className="relative w-32 h-32 mx-auto mb-6">
               <Image
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
                 alt="Danish Sabeel"
@@ -58,10 +58,10 @@ export default function AboutPage() {
                 className="rounded-full object-cover border-4 border-rose-500/20"
               />
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
               Danish <span className="text-gradient">Sabeel</span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
               Assistant Project Manager specializing in Facades & Curtain Walls with a passion for 
               delivering exceptional construction projects through innovative solutions and team leadership.
             </p>
@@ -91,7 +91,7 @@ export default function AboutPage() {
 
       {/* About Content */}
       <section className="py-20">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* About Text */}
             <motion.div
@@ -145,7 +145,7 @@ export default function AboutPage() {
 
       {/* Achievements */}
       <section className="py-20 bg-gray-900/50">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -183,7 +183,7 @@ export default function AboutPage() {
 
       {/* Contact CTA */}
       <section className="py-20">
-        <div className="container mx-auto px-6 text-center">
+        <div className="container mx-auto px-4 md:px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

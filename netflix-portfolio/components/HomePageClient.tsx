@@ -17,8 +17,27 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
   const [filteredExperiences, setFilteredExperiences] = useState<Experience[]>(experiences)
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [currentPage, setCurrentPage] = useState(0)
+  const [isAtStart, setIsAtStart] = useState(true)
+  const [isAtEnd, setIsAtEnd] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
-  const cardsPerPage = 3
+  const [cardsPerPage, setCardsPerPage] = useState(3)
+
+  // Detect screen size and set cardsPerPage accordingly
+  useEffect(() => {
+    const updateCardsPerPage = () => {
+      if (window.innerWidth < 768) {
+        setCardsPerPage(1) // Mobile: 1 card at a time
+      } else if (window.innerWidth < 1024) {
+        setCardsPerPage(2) // Tablet: 2 cards
+      } else {
+        setCardsPerPage(3) // Desktop: 3 cards
+      }
+    }
+
+    updateCardsPerPage()
+    window.addEventListener('resize', updateCardsPerPage)
+    return () => window.removeEventListener('resize', updateCardsPerPage)
+  }, [])
 
   const totalPages = Math.ceil(filteredExperiences.length / cardsPerPage)
 
@@ -50,6 +69,7 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
         // Calculate based on actual card widths
         const firstCardWidth = children[0]?.offsetWidth || 0
         const gap = 24 // gap-6
+        // Scroll to the first card of the page
         const scrollLeft = page * cardsPerPage * (firstCardWidth + gap)
         
         container.scrollTo({ left: scrollLeft, behavior: "smooth" })
@@ -59,13 +79,49 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
   }, [cardsPerPage])
 
   const nextPage = () => {
-    const nextPageIndex = Math.min(currentPage + 1, totalPages - 1)
-    scrollToPage(nextPageIndex)
+    if (cardsPerPage === 1) {
+      // On mobile, scroll one card at a time
+      if (scrollRef.current) {
+        const container = scrollRef.current
+        const children = Array.from(container.children) as HTMLElement[]
+        if (children.length === 0) return
+        
+        const firstCardWidth = children[0]?.offsetWidth || 0
+        const gap = 24
+        const currentScroll = container.scrollLeft
+        const cardWidthWithGap = firstCardWidth + gap
+        const nextScroll = currentScroll + cardWidthWithGap
+        
+        container.scrollTo({ left: nextScroll, behavior: "smooth" })
+      }
+    } else {
+      // On desktop, scroll one page at a time
+      const nextPageIndex = Math.min(currentPage + 1, totalPages - 1)
+      scrollToPage(nextPageIndex)
+    }
   }
 
   const prevPage = () => {
-    const prevPageIndex = Math.max(currentPage - 1, 0)
-    scrollToPage(prevPageIndex)
+    if (cardsPerPage === 1) {
+      // On mobile, scroll one card at a time
+      if (scrollRef.current) {
+        const container = scrollRef.current
+        const children = Array.from(container.children) as HTMLElement[]
+        if (children.length === 0) return
+        
+        const firstCardWidth = children[0]?.offsetWidth || 0
+        const gap = 24
+        const currentScroll = container.scrollLeft
+        const cardWidthWithGap = firstCardWidth + gap
+        const prevScroll = Math.max(0, currentScroll - cardWidthWithGap)
+        
+        container.scrollTo({ left: prevScroll, behavior: "smooth" })
+      }
+    } else {
+      // On desktop, scroll one page at a time
+      const prevPageIndex = Math.max(currentPage - 1, 0)
+      scrollToPage(prevPageIndex)
+    }
   }
 
   // Reset to first page when filtered experiences change
@@ -97,7 +153,7 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-gray-900 via-black to-gray-900">
+      <section className="relative py-12 bg-gradient-to-br from-gray-900 via-black to-gray-900">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -105,10 +161,10 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
               My <span className="text-gradient">Experience</span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
               Delivering construction excellence through strategic project management, technical expertise, and collaborative leadership across residential and commercial sectors.
             </p>
             
@@ -157,7 +213,7 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
 
       {/* Experience Grid Section */}
       <section className="py-20">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 md:px-6">
           {/* Filter Categories */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -193,36 +249,38 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
               <div className="flex gap-2">
                 <button
                   onClick={prevPage}
-                  disabled={currentPage === 0}
+                  disabled={cardsPerPage === 1 ? isAtStart : currentPage === 0}
                   className="p-3 rounded-full bg-white/10 text-white hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors focus:outline-none focus:ring-2 focus:ring-rose-500"
-                  aria-label="Previous page"
+                  aria-label="Previous"
                 >
                   <ChevronLeft className="w-6 h-6" />
                 </button>
                 <button
                   onClick={nextPage}
-                  disabled={currentPage === totalPages - 1}
+                  disabled={cardsPerPage === 1 ? isAtEnd : currentPage === totalPages - 1}
                   className="p-3 rounded-full bg-white/10 text-white hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors focus:outline-none focus:ring-2 focus:ring-rose-500"
-                  aria-label="Next page"
+                  aria-label="Next"
                 >
                   <ChevronRight className="w-6 h-6" />
                 </button>
               </div>
-              {/* Dots Indicator */}
-              <div className="flex gap-2">
-                {Array.from({ length: totalPages }).map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => scrollToPage(index)}
-                    className={`w-2 h-2 rounded-full transition-all ${
-                      index === currentPage
-                        ? "bg-rose-500 w-8"
-                        : "bg-white/30 hover:bg-white/50"
-                    }`}
-                    aria-label={`Go to page ${index + 1}`}
-                  />
-                ))}
-              </div>
+              {/* Dots Indicator - Hide on mobile if too many cards */}
+              {cardsPerPage > 1 && (
+                <div className="flex gap-2">
+                  {Array.from({ length: totalPages }).map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => scrollToPage(index)}
+                      className={`w-2 h-2 rounded-full transition-all ${
+                        index === currentPage
+                          ? "bg-rose-500 w-8"
+                          : "bg-white/30 hover:bg-white/50"
+                      }`}
+                      aria-label={`Go to page ${index + 1}`}
+                    />
+                  ))}
+                </div>
+              )}
             </div>
 
             {/* Carousel Container */}
@@ -236,14 +294,32 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
                 
                 if (children.length === 0) return
                 
-                const firstCardWidth = children[0]?.offsetWidth || 0
-                const gap = 24
                 const scrollPosition = container.scrollLeft
-                const pageWidth = cardsPerPage * (firstCardWidth + gap)
-                const pageIndex = Math.round(scrollPosition / pageWidth)
+                const maxScroll = container.scrollWidth - container.clientWidth
                 
-                if (pageIndex !== currentPage && pageIndex >= 0 && pageIndex < totalPages) {
-                  setCurrentPage(pageIndex)
+                // Update scroll position states for mobile button disabling
+                setIsAtStart(scrollPosition <= 10)
+                setIsAtEnd(scrollPosition >= maxScroll - 10)
+                
+                if (cardsPerPage === 1) {
+                  // On mobile, update currentPage based on card index
+                  const firstCardWidth = children[0]?.offsetWidth || 0
+                  const gap = 24
+                  const cardWidthWithGap = firstCardWidth + gap
+                  const cardIndex = Math.round(scrollPosition / cardWidthWithGap)
+                  if (cardIndex !== currentPage && cardIndex >= 0 && cardIndex < filteredExperiences.length) {
+                    setCurrentPage(cardIndex)
+                  }
+                } else {
+                  // On desktop, calculate page based on cards per page
+                  const firstCardWidth = children[0]?.offsetWidth || 0
+                  const gap = 24
+                  const cardWidthWithGap = firstCardWidth + gap
+                  const cardIndex = Math.round(scrollPosition / cardWidthWithGap)
+                  const calculatedPage = Math.floor(cardIndex / cardsPerPage)
+                  if (calculatedPage !== currentPage && calculatedPage >= 0 && calculatedPage < totalPages) {
+                    setCurrentPage(calculatedPage)
+                  }
                 }
               }}
             >
