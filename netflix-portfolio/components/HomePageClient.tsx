@@ -40,10 +40,20 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
   const scrollToPage = useCallback((page: number) => {
     if (scrollRef.current) {
       const container = scrollRef.current
-      const itemWidth = container.children[0]?.clientWidth || 0
-      const gap = 24 // gap-6
-      const scrollLeft = page * cardsPerPage * (itemWidth + gap)
-      container.scrollTo({ left: scrollLeft, behavior: "smooth" })
+      
+      // Use requestAnimationFrame to ensure DOM is ready
+      requestAnimationFrame(() => {
+        const children = Array.from(container.children) as HTMLElement[]
+        
+        if (children.length === 0) return
+        
+        // Calculate based on actual card widths
+        const firstCardWidth = children[0]?.offsetWidth || 0
+        const gap = 24 // gap-6
+        const scrollLeft = page * cardsPerPage * (firstCardWidth + gap)
+        
+        container.scrollTo({ left: scrollLeft, behavior: "smooth" })
+      })
     }
     setCurrentPage(page)
   }, [cardsPerPage])
@@ -57,6 +67,14 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
     const prevPageIndex = Math.max(currentPage - 1, 0)
     scrollToPage(prevPageIndex)
   }
+
+  // Reset to first page when filtered experiences change
+  useEffect(() => {
+    setCurrentPage(0)
+    if (scrollRef.current) {
+      scrollRef.current.scrollTo({ left: 0, behavior: "auto" })
+    }
+  }, [filteredExperiences.length])
 
   // Handle keyboard navigation
   useEffect(() => {
@@ -214,11 +232,16 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
               onScroll={(e) => {
                 const container = e.currentTarget
-                const itemWidth = container.children[0]?.clientWidth || 0
+                const children = Array.from(container.children) as HTMLElement[]
+                
+                if (children.length === 0) return
+                
+                const firstCardWidth = children[0]?.offsetWidth || 0
                 const gap = 24
                 const scrollPosition = container.scrollLeft
-                const pageWidth = cardsPerPage * (itemWidth + gap)
+                const pageWidth = cardsPerPage * (firstCardWidth + gap)
                 const pageIndex = Math.round(scrollPosition / pageWidth)
+                
                 if (pageIndex !== currentPage && pageIndex >= 0 && pageIndex < totalPages) {
                   setCurrentPage(pageIndex)
                 }

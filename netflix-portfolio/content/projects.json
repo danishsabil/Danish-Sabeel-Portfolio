@@ -111,10 +111,8 @@
       "category": "Research",
       "experienceSlug": "boston-university",
       "status": "Completed",
-      "hero": "/images/bu-thesis-hero.vif",
-      "images": [
-        "/images/bu-thesis-hero.vif"
-      ],
+      "hero": "/images/bu-thesis-hero.jpg",
+      "images": [],
       "description": "Master's thesis research exploring Agile Project Management as a transformative framework for construction projects. Demonstrated how Agile's iterative, customer-centric approach improves communication, adaptability, and efficiency across teams while addressing integration challenges. Through global case studies (U.S., Macau, Iraq), concluded that Agile can significantly enhance construction management performance when adapted to industry-specific conditions.",
       "scope": "Graduate-level research thesis for Master of Science in Project Management at Boston University. Comprehensive analysis of Agile methodologies in construction through literature review, comparative case studies across three international projects, and synthesis of best practices for industry adoption. Research examined stakeholder collaboration, iterative planning frameworks, and hybrid implementation models.",
       "challenges": "Adapting software development methodologies (Agile) to the traditionally sequential construction industry presented conceptual and practical challenges. Analyzing diverse international case studies required reconciling different regulatory environments, cultural contexts, and project scales. Identifying barriers to Agile adoption including cultural resistance, training requirements, and integration with established Waterfall methodologies. Synthesizing empirical evidence with theoretical frameworks to produce actionable recommendations.",
@@ -377,6 +375,46 @@
         "architect": "Sanjay Mathur Associates"
       },
       "tags": ["3D Visualization", "Interior Design", "Residential", "Interior Consultation", "Rendering"]
+    },
+    {
+      "id": "mixed-use-residence-corner",
+      "slug": "mixed-use-residence-corner-site",
+      "title": "Mixed-Use Residence",
+      "subtitle": "Corner Site Residential & Commercial Building",
+      "location": "Udaipur, Rajasthan",
+      "year": "2021-2022",
+      "value": "$850,000",
+      "category": "Architecture",
+      "experienceSlug": "sanjay-mathur-associates",
+      "status": "Completed",
+      "hero": "/images/projects/Residential+Commercial building/image 2.png",
+      "images": [
+        "/images/projects/Residential+Commercial building/image 1.png",
+        "/images/projects/Residential+Commercial building/image 2.png",
+        "/images/projects/Residential+Commercial building/image 3.jpg",
+        "/images/projects/Residential+Commercial building/image 4.jpg",
+        "/images/projects/Residential+Commercial building/image 5.jpg",
+        "/images/projects/Residential+Commercial building/image 6.png"
+      ],
+      "description": "Developed comprehensive architectural design for a mixed-use residence on a corner site under Sanjay Mathur Architects. Responsible for conceptual design, façade development, interior planning, and spatial organization. The building strategically maximizes views and daylight from two directions while ensuring privacy and comfort. Lower two floors house commercial spaces for rental income, while upper floors contain a luxury residential unit featuring double-height volumes, abundant natural light, and panoramic city views.",
+      "scope": "Complete architectural design including conceptual design development, façade design and articulation, interior planning and spatial organization, double-height volume design for living areas, feature wall design with textured cladding, material palette selection and specification, bedroom design with individual color schemes, large opening and sliding door design for views and ventilation, commercial space planning for lower floors, residential unit planning for upper floors, construction documentation, and design coordination with client and consultants.",
+      "challenges": "Designing on a corner site required maximizing views and daylight from two directions while maintaining privacy and comfort. Balancing commercial functionality on lower floors with luxury residential living on upper floors demanded careful spatial organization and program separation. Creating double-height volumes required structural coordination and careful integration with overall building massing. Ensuring abundant natural light penetration while maintaining thermal comfort and privacy. Developing individual bedroom identities while maintaining overall design coherence. Integrating large openings for views and ventilation without compromising structural integrity or privacy. Achieving context-responsive design that responds to prominent market area location while creating elegant residential spaces.",
+      "solutions": "Strategically oriented the building to capture views and daylight from two directions, taking advantage of the corner site's unique positioning. Designed lower two floors as commercial spaces responding to the site's prominent market location, generating rental income while maintaining street-level engagement. Created double-height volumes in the living area to enhance spatial drama and allow natural light to cascade through interiors, creating vertical continuity and grandeur. Designed a two-storey-high feature wall with textured cladding as the visual centerpiece, accentuating verticality and becoming the focal point of interior composition. Developed a warm and contemporary material palette combining natural wood finishes, marble flooring, and muted neutral walls for an elegant yet timeless atmosphere. Designed each bedroom with individual color schemes and material identities, balancing texture and tone to reflect occupant personality while maintaining overall visual coherence. Oriented large openings and sliding doors to capture panoramic city views, enhancing cross-ventilation and daylighting. Successfully integrated modern residential comfort with commercial practicality, achieving fine balance between aesthetics, function, and economic value.",
+      "specifications": {
+        "projectType": "Mixed-Use Building (Residential + Commercial)",
+        "program": "Commercial spaces (lower 2 floors) + Private residential unit (upper floors)",
+        "siteCondition": "Corner site with dual orientation",
+        "architecturalStyle": "Contemporary luxury with warm material palette",
+        "keyDesignFeatures": ["Double-height living volumes", "Two-storey feature wall with textured cladding", "Large openings for panoramic views", "Individual bedroom color schemes", "Cross-ventilation optimization"],
+        "materialPalette": ["Natural wood finishes", "Marble flooring", "Muted neutral walls", "Textured cladding"],
+        "spatialOrganization": "Commercial spaces (ground + first floor), Residential unit (upper floors)",
+        "lightingStrategy": "Abundant natural light through double-height volumes and large openings",
+        "ventilationStrategy": "Cross-ventilation through strategically oriented sliding doors and openings",
+        "designArchitect": "Sanjay Mathur Associates",
+        "projectValue": "$850,000 USD",
+        "designOutcome": "Context-responsive urban living prototype demonstrating integration of commercial practicality with luxury residential comfort"
+      },
+      "tags": ["Architecture", "Mixed-Use", "Residential", "Commercial", "Corner Site", "Façade Design", "Interior Design", "Double-Height Spaces", "Urban Living", "Luxury Residential"]
     }
   ],
   "categories": ["All", "Curtain Wall", "Architecture", "3D Visualization", "Research", "Personal"]

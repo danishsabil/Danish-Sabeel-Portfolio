@@ -110,4 +110,27 @@
   .focus-ring {
     @apply focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 focus:ring-offset-black;
   }
+
+  /* Ensure content is visible - prevents blank page if JS hasn't hydrated */
+  /* Framer Motion will still animate properly once it loads */
+  [style*="opacity: 0"],
+  [style*="opacity:0"] {
+    animation: fadeIn 0.1s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Fallback for reduced motion - show content immediately */
+  @media (prefers-reduced-motion: reduce) {
+    [style*="opacity: 0"],
+    [style*="opacity:0"] {
+      opacity: 1 !important;
+      transform: none !important;
+      animation: none !important;
+    }
+  }
 }

@@ -37,7 +37,7 @@ export default function ProfileCard({ experience, index }: ProfileCardProps) {
             />
             
             {/* Logo overlay */}
-            <div className="absolute top-3 left-3 z-10">
+            <div className="absolute top-3 left-3 z-[2]">
               <div className="relative w-12 h-12 md:w-14 md:h-14">
                 <Image
                   src={experience.logo}
@@ -49,10 +49,10 @@ export default function ProfileCard({ experience, index }: ProfileCardProps) {
             </div>
 
             {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-[1]" />
             
             {/* Content overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-4 md:p-5 text-white">
+            <div className="absolute bottom-0 left-0 right-0 p-4 md:p-5 text-white z-[2]">
               <h3 className="text-lg md:text-xl font-bold mb-1 group-hover:text-rose-400 transition-colors">
                 {experience.title}
               </h3>

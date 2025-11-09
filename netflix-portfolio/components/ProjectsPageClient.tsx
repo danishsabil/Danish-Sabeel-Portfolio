@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import ProjectCard from "@/components/ProjectCard"
@@ -13,6 +13,25 @@ interface ProjectsPageClientProps {
 
 export default function ProjectsPageClient({ projects, categories }: ProjectsPageClientProps) {
   const [selectedCategory, setSelectedCategory] = useState("All")
+  const [navbarHeight, setNavbarHeight] = useState(64)
+
+  useEffect(() => {
+    // Find the navbar element and measure its height
+    const measureNavbar = () => {
+      const navbar = document.querySelector('nav')
+      if (navbar) {
+        const height = navbar.offsetHeight
+        setNavbarHeight(height)
+      }
+    }
+
+    // Measure on mount
+    measureNavbar()
+
+    // Measure on resize (in case navbar height changes)
+    window.addEventListener('resize', measureNavbar)
+    return () => window.removeEventListener('resize', measureNavbar)
+  }, [])
 
   const filteredProjects = selectedCategory === "All" 
     ? projects 
@@ -40,8 +59,11 @@ export default function ProjectsPageClient({ projects, categories }: ProjectsPag
         </div>
       </section>
 
-      {/* Filter Tabs */}
-      <section className="py-8 bg-gray-900/30 sticky top-[72px] z-40 backdrop-blur-md border-b border-white/10">
+      {/* Filter Tabs - Sticky when scrolling */}
+      <section 
+        className="sticky z-30 py-8 bg-gray-900/30 backdrop-blur-md border-b border-white/10"
+        style={{ top: `${navbarHeight}px` }}
+      >
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center gap-3">
             {categories.map((category) => (
@@ -63,7 +85,7 @@ export default function ProjectsPageClient({ projects, categories }: ProjectsPag
       </section>
 
       {/* Projects Grid */}
-      <section className="py-20">
+      <section className="py-20 relative z-10">
         <div className="container mx-auto px-6">
           {filteredProjects.length === 0 ? (
             <div className="text-center py-20">

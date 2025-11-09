@@ -13,9 +13,9 @@ interface ExperienceHeroProps {
 
 export default function ExperienceHero({ experience }: ExperienceHeroProps) {
   return (
-    <div className="relative h-[70vh] overflow-hidden">
+    <div className="relative min-h-[70vh]">
       {/* Backdrop Image */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-0">
         <Image
           src={experience.backdrop}
           alt={`${experience.title} backdrop`}
@@ -23,12 +23,12 @@ export default function ExperienceHero({ experience }: ExperienceHeroProps) {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 netflix-gradient" />
+        <div className="absolute inset-0 netflix-gradient z-[1]" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-end">
-        <div className="container mx-auto px-6 pb-16">
+      <div className="relative z-10 min-h-[70vh] flex items-end">
+        <div className="container mx-auto px-6 pb-8 md:pb-16 w-full">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}

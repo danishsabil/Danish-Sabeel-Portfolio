@@ -1,19 +1,36 @@
 import { PortfolioData, Experience, ProjectsData, Project } from "./types"
+import fs from "fs/promises"
+import path from "path"
 
 // Load and validate the experiences data
 export async function getPortfolioData(): Promise<PortfolioData> {
   try {
-    const data = await import("../content/experiences.json")
-    const portfolioData = data.default as PortfolioData
+    // Try reading from file system first (works in server components)
+    const filePath = path.join(process.cwd(), "content", "experiences.json")
+    const fileContents = await fs.readFile(filePath, "utf8")
+    const portfolioData = JSON.parse(fileContents) as PortfolioData
     
     // Basic validation
     if (!portfolioData.owner || !portfolioData.experiences) {
+      console.error("Invalid portfolio data structure:", portfolioData)
       throw new Error("Invalid portfolio data structure")
     }
     
+    console.log(`Loaded ${portfolioData.experiences.length} experiences`)
     return portfolioData
   } catch (error) {
     console.error("Failed to load portfolio data:", error)
+    // Try fallback import method
+    try {
+      const data = await import("../content/experiences.json")
+      const portfolioData = data.default as PortfolioData
+      if (portfolioData.owner && portfolioData.experiences) {
+        console.log(`Loaded ${portfolioData.experiences.length} experiences via import`)
+        return portfolioData
+      }
+    } catch (importError) {
+      console.error("Import fallback also failed:", importError)
+    }
     // Return fallback data to prevent crashes
     return {
       owner: {
@@ -67,17 +84,32 @@ export async function getRelatedExperiences(
 // Project data functions
 export async function getProjectsData(): Promise<ProjectsData> {
   try {
-    const data = await import("../content/projects.json")
-    const projectsData = data.default as ProjectsData
+    // Try reading from file system first (works in server components)
+    const filePath = path.join(process.cwd(), "content", "projects.json")
+    const fileContents = await fs.readFile(filePath, "utf8")
+    const projectsData = JSON.parse(fileContents) as ProjectsData
     
     // Basic validation
     if (!projectsData.projects || !projectsData.categories) {
+      console.error("Invalid projects data structure:", projectsData)
       throw new Error("Invalid projects data structure")
     }
     
+    console.log(`Loaded ${projectsData.projects.length} projects`)
     return projectsData
   } catch (error) {
     console.error("Failed to load projects data:", error)
+    // Try fallback import method
+    try {
+      const data = await import("../content/projects.json")
+      const projectsData = data.default as ProjectsData
+      if (projectsData.projects && projectsData.categories) {
+        console.log(`Loaded ${projectsData.projects.length} projects via import`)
+        return projectsData
+      }
+    } catch (importError) {
+      console.error("Import fallback also failed:", importError)
+    }
     // Return fallback data to prevent crashes
     return {
       projects: [],

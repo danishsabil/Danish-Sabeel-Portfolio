@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-domain.com",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
     title: "Danish Sabeel - Portfolio",
     description: "Assistant PM specializing in Facades & Curtain Walls. Explore my professional journey through interactive experience cards.",
     siteName: "Danish Sabeel Portfolio",
