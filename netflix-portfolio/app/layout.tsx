@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://danish-sabeel-portfolio.vercel.app",
     title: "Danish Sabeel - Portfolio",
     description: "Assistant PM specializing in Facades & Curtain Walls. Explore my professional journey through interactive experience cards.",
     siteName: "Danish Sabeel Portfolio",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop&crop=face",
+        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://danish-sabeel-portfolio.vercel.app"}/images/professional%20headshot.png`,
         width: 1200,
         height: 630,
         alt: "Danish Sabeel - Portfolio"
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Danish Sabeel - Portfolio",
     description: "Assistant PM specializing in Facades & Curtain Walls. Explore my professional journey through interactive experience cards.",
-    images: ["https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop&crop=face"]
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://danish-sabeel-portfolio.vercel.app"}/images/professional%20headshot.png`]
   },
   robots: {
     index: true,
