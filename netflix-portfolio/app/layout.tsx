@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Danish Sabeel Portfolio",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://danish-sabeel-portfolio.vercel.app"}/images/professional%20headshot.png`,
+        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://danish-sabeel-portfolio.vercel.app"}/opengraph-image`,
         width: 1200,
         height: 630,
         alt: "Danish Sabeel - Portfolio"
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Danish Sabeel - Portfolio",
     description: "Assistant PM specializing in Facades & Curtain Walls. Explore my professional journey through interactive experience cards.",
-    images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://danish-sabeel-portfolio.vercel.app"}/images/professional%20headshot.png`]
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://danish-sabeel-portfolio.vercel.app"}/opengraph-image`]
   },
   robots: {
     index: true,
