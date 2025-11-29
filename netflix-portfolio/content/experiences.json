@@ -14,7 +14,7 @@
       "poster": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=400&fit=crop",
       "backdrop": "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=1920&h=1080&fit=crop",
       "logo": "/images/island-exterior-logo.jpg",
-      "summary": "Managing project schedules and logistics for large-scale façade projects valued between $2M–$60M, ensuring materials and equipment reach site per construction milestones.",
+      "summary": "Managing project schedules and logistics for large-scale façade projects valued between $2M–$50M, ensuring materials and equipment reach site per construction milestones.",
       "skills": ["PM", "Project Management", "Curtain Wall", "MS Project", "Vendor Coordination", "RFI Management", "Cost Estimation", "Logistics"],
       "links": [
         {"label": "Company", "href": "https://example.com"}
@@ -33,7 +33,7 @@
           "description": "Coordinated with procurement teams and vendors to align lead times, improving material delivery reliability and reducing schedule disruptions across multiple project packages.",
           "metrics": [
             {"label": "Delivery Reliability", "value": "+15%"},
-            {"label": "Project Value Range", "value": "$2M-$60M"}
+            {"label": "Project Value Range", "value": "$2M-$50M"}
           ]
         },
         {

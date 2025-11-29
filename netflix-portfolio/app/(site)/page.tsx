@@ -20,8 +20,8 @@ export default function AboutPage() {
   const achievements = [
     {
       title: "Project Portfolio",
-      description: "Successfully delivered projects with combined value exceeding $60M across residential and commercial sectors",
-      metric: "$60M+ Value"
+      description: "Successfully delivered projects with combined value exceeding $50M across residential and commercial sectors",
+      metric: "$50M+ Value"
     },
     {
       title: "Process Improvement",
@@ -61,7 +61,7 @@ export default function AboutPage() {
                   Architect | Construction Manager | Facade and Curtain Walls
                 </p>
                 <p className="text-base md:text-lg text-gray-300 mb-6 leading-relaxed max-w-lg">
-                  Project Management professional with architecture and construction management expertise, delivering projects from $2M to $60M across the U.S. and India. Currently Assistant Project Manager at Island Exterior Fabricators, specializing in façade and curtain wall systems.
+                  Project Management professional with architecture and construction management expertise, delivering projects from $2M to $50M across the U.S. and India. Currently Assistant Project Manager at Island Exterior Fabricators, specializing in façade and curtain wall systems.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-8">
                   <div className="flex items-center gap-2 text-gray-300">
@@ -126,7 +126,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  Project Management professional with a foundation in architecture and construction management, experienced in delivering projects ranging from $2M to $60M across the U.S. and India. Skilled in scheduling, procurement, estimation, subcontractor management, and stakeholder coordination, I bring a balanced perspective from both design and field execution.
+                  Project Management professional with a foundation in architecture and construction management, experienced in delivering projects ranging from $2M to $50M across the U.S. and India. Skilled in scheduling, procurement, estimation, subcontractor management, and stakeholder coordination, I bring a balanced perspective from both design and field execution.
                 </p>
                 <p>
                   Currently an Assistant Project Manager at Island Exterior Fabricators, I support large-scale curtain wall projects by managing schedules, logistics, RFIs, change orders, and design-assist coordination. Previously, I led residential and commercial projects in India, overseeing subcontractor teams of 10–20 while driving efficiency through lean construction practices and delivering projects on time and within budget.

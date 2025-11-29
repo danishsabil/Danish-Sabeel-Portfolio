@@ -20,6 +20,7 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
   const [isAtStart, setIsAtStart] = useState(true)
   const [isAtEnd, setIsAtEnd] = useState(false)
   const scrollRef = useRef<HTMLDivElement>(null)
+  const isProgrammaticScroll = useRef(false)
   const [cardsPerPage, setCardsPerPage] = useState(3)
 
   // Detect screen size and set cardsPerPage accordingly
@@ -60,11 +61,18 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
     if (scrollRef.current) {
       const container = scrollRef.current
       
+      // Mark as programmatic scroll
+      isProgrammaticScroll.current = true
+      setCurrentPage(page)
+      
       // Use requestAnimationFrame to ensure DOM is ready
       requestAnimationFrame(() => {
         const children = Array.from(container.children) as HTMLElement[]
         
-        if (children.length === 0) return
+        if (children.length === 0) {
+          isProgrammaticScroll.current = false
+          return
+        }
         
         // Calculate based on actual card widths
         const firstCardWidth = children[0]?.offsetWidth || 0
@@ -73,9 +81,13 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
         const scrollLeft = page * cardsPerPage * (firstCardWidth + gap)
         
         container.scrollTo({ left: scrollLeft, behavior: "smooth" })
+        
+        // Reset flag after scroll animation completes (smooth scroll takes ~300ms)
+        setTimeout(() => {
+          isProgrammaticScroll.current = false
+        }, 400)
       })
     }
-    setCurrentPage(page)
   }, [cardsPerPage])
 
   const nextPage = () => {
@@ -185,7 +197,7 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="text-center"
               >
-                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">15+</div>
+                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">10+</div>
                 <div className="text-gray-300 text-sm">Projects Delivered</div>
               </motion.div>
               <motion.div
@@ -194,7 +206,7 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="text-center"
               >
-                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">$60M+</div>
+                <div className="text-3xl md:text-4xl font-bold text-rose-400 mb-2">$50M+</div>
                 <div className="text-gray-300 text-sm">Project Value</div>
               </motion.div>
               <motion.div
@@ -289,6 +301,9 @@ export default function HomePageClient({ experiences }: HomePageClientProps) {
               className="flex gap-6 overflow-x-auto overflow-y-visible scrollbar-hide snap-x snap-mandatory px-2 -mx-2 pb-4"
               style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
               onScroll={(e) => {
+                // Skip updating page state if scroll was programmatic (from dot click)
+                if (isProgrammaticScroll.current) return
+                
                 const container = e.currentTarget
                 const children = Array.from(container.children) as HTMLElement[]
                 
