@@ -464,6 +464,41 @@
         "designOutcome": "Context-responsive urban living prototype demonstrating integration of commercial practicality with luxury residential comfort"
       },
       "tags": ["Architecture", "Mixed-Use", "Residential", "Commercial", "Corner Site", "Façade Design", "Interior Design", "Double-Height Spaces", "Urban Living", "Luxury Residential"]
+    },
+    {
+      "id": "daily-field-report-app",
+      "slug": "daily-field-report-app",
+      "title": "Daily Field Report App",
+      "subtitle": "Construction Project Automation Tool",
+      "location": "Boston, MA",
+      "year": "2025-Present",
+      "value": "Personal Project",
+      "category": "Personal",
+      "experienceSlug": "island-exterior-fabricators",
+      "status": "Ongoing",
+      "hero": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1920&h=1080&fit=crop",
+      "images": [
+        "/images/projects/daily-field-report-app/Attached_image.png",
+        "/images/projects/daily-field-report-app/Attached_image1.png",
+        "/images/projects/daily-field-report-app/Attached_image2.png",
+        "/images/projects/daily-field-report-app/Attached_image3.png",
+        "/images/projects/daily-field-report-app/Attached_image4.png"
+      ],
+      "description": "As an Assistant Project Manager in commercial construction, I noticed our team spending 15-20 minutes daily on repetitive field report data entry—time better spent on actual project management. I designed and built a mobile-first Progressive Web Application that automates daily field reporting with smart auto-generation, offline-first design, dynamic templates per project, and one-click Excel exports for stakeholder deliverables.",
+      "scope": "Full-stack implementation including 34 RESTful API endpoints with Zod validation, PostgreSQL with Row-Level Security for multi-tenant isolation, Open-Meteo weather integration with geolocation auto-detect, offline queue using localStorage with 5-retry sync logic, ExcelJS-powered exports with calculated fields and formatting, and an installable PWA for standalone mobile use on job sites.",
+      "challenges": "Our team spent 15-20 minutes daily on repetitive field report data entry. Weather data was manually entered and only about 60% accurate. Reports were occasionally lost (2-3 per month). Weekly and monthly export compilation took roughly an hour.",
+      "solutions": "Cron job creates draft reports pre-filled with the previous day's data and real-time weather. Offline-first design ensures the app works on job sites with poor connectivity and syncs when online. Dynamic templates allow custom fields per project without code changes. One-click formatted Excel reports reduced export compilation from about an hour to under a minute. The PWA delivers an installable, standalone mobile experience.",
+      "specifications": {
+        "frontend": "Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4",
+        "backend": "Vercel Serverless Functions, Supabase Auth (Email OTP)",
+        "database": "PostgreSQL 15+ with Row-Level Security",
+        "automation": "Vercel Cron Jobs, Auto-draft generation",
+        "apis": "Open-Meteo (Weather), Geolocation, ExcelJS",
+        "security": "Input validation (Zod), CSRF protection, Role-based access",
+        "apiEndpoints": "34 RESTful endpoints",
+        "offlineSupport": "localStorage queue with 5-retry sync logic"
+      },
+      "tags": ["Personal", "Full-Stack", "Next.js", "PWA", "Construction Tech", "Automation", "TypeScript", "Supabase"]
     }
   ],
   "categories": ["All", "Curtain Wall", "Architecture", "3D Visualization", "Research", "Personal"]
