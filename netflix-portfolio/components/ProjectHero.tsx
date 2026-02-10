@@ -150,7 +150,7 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
                              className="bg-rose-600 hover:bg-rose-700 text-white text-sm"
                              asChild
                            >
-                             <a href={download.file} download target="_blank" rel="noopener noreferrer">
+                             <a href={download.file} {...(download.file.startsWith("http") ? {} : { download: true })} target="_blank" rel="noopener noreferrer">
                                <Download className="w-3 h-3 mr-1" />
                                {download.label}
                                {download.size && <span className="ml-1 text-xs opacity-80">({download.size})</span>}

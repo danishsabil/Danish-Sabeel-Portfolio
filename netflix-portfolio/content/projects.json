@@ -498,6 +498,13 @@
         "apiEndpoints": "34 RESTful endpoints",
         "offlineSupport": "localStorage queue with 5-retry sync logic"
       },
+      "downloads": [
+        {
+          "label": "Visit dailytracker.xyz",
+          "file": "https://dailytracker.xyz",
+          "type": "Website"
+        }
+      ],
       "tags": ["Personal", "Full-Stack", "Next.js", "PWA", "Construction Tech", "Automation", "TypeScript", "Supabase"]
     }
   ],
