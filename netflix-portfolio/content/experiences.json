@@ -1,7 +1,7 @@
 {
   "owner": {
     "name": "Danish Sabeel",
-    "tagline": "Assistant PM • Facades & Curtain Walls",
+    "tagline": "Assistant PM • Building Systems & Construction Technology",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
   },
   "experiences": [
@@ -21,35 +21,43 @@
       ],
       "episodes": [
         {
-          "title": "Digital Automation & Process Improvement",
-          "description": "Proactively developed digital trackers and AI-driven automations to streamline repetitive documentation, delivery tracking, and material status reporting—enhancing visibility and improving logistics accuracy.",
+          "title": "AI-Integrated Documentation Workflows",
+          "description": "Designed and implemented AI-assisted workflows to convert raw field notes into structured daily reports, weekly progress summaries, and executive-level documentation — ensuring consistent format, tone, and accountability across all project stakeholders. Reduced documentation turnaround significantly while maintaining a complete, auditable project record throughout the construction lifecycle.",
           "metrics": [
-            {"label": "Reporting Time Reduction", "value": "30%"},
-            {"label": "Logistics Accuracy", "value": "+15%"}
+            {"label": "Report Turnaround", "value": "Same-Day"},
+            {"label": "Reporting Consistency", "value": "100%"}
           ]
         },
         {
-          "title": "Material Delivery Coordination",
-          "description": "Coordinated with procurement teams and vendors to align lead times, improving material delivery reliability and reducing schedule disruptions across multiple project packages.",
+          "title": "Closeout & Completion Management",
+          "description": "Managed end-to-end project closeout including punchlist reduction, subcontractor coordination, milestone tracking, and GC-facing status reporting. Developed structured tracking tools to monitor completion status across multiple work packages simultaneously — keeping all parties aligned on outstanding items, dependencies, and handoff readiness.",
           "metrics": [
-            {"label": "Delivery Reliability", "value": "+15%"},
-            {"label": "Project Value Range", "value": "$2M-$50M"}
+            {"label": "Work Packages Tracked", "value": "6+"},
+            {"label": "Stakeholder Alignment", "value": "Weekly"}
           ]
         },
         {
-          "title": "Multi-Trade Coordination",
-          "description": "Facilitated coordination among 5+ trades to resolve field conflicts, maintain workflow continuity, and support seamless project execution.",
+          "title": "Change Order & Risk Documentation",
+          "description": "Led documentation of change orders, field directives, and non-conformance reports to protect scope boundaries and maintain clear accountability between trades. Established a consistent process for capturing directed work before execution — reducing cost exposure and providing a reliable paper trail for dispute resolution and contract compliance.",
           "metrics": [
-            {"label": "Trades Coordinated", "value": "5+"},
-            {"label": "Workflow Continuity", "value": "100%"}
+            {"label": "Documentation Accuracy", "value": "100%"},
+            {"label": "Cost Exposure", "value": "Mitigated"}
           ]
         },
         {
-          "title": "Design-Assist Collaboration",
-          "description": "Collaborated with design, engineering, and construction teams during design-assist phase to address constructability and sequencing challenges while managing RFIs, change orders, and transmittals.",
+          "title": "Multi-Stakeholder Field Coordination",
+          "description": "Coordinated field operations across multiple trades, vendors, third-party consultants, and GC representatives — managing concurrent work packages, inspection milestones, and design-assist communication in parallel. Maintained schedule awareness and escalation discipline to keep critical path items visible and actioned across all project stakeholders.",
           "metrics": [
-            {"label": "Documentation Tracked", "value": "100+"},
-            {"label": "Stakeholder Transparency", "value": "Enhanced"}
+            {"label": "Stakeholders Managed", "value": "8+"},
+            {"label": "Critical Path Items", "value": "Tracked Daily"}
+          ]
+        },
+        {
+          "title": "Building Systems Performance & Commissioning Support",
+          "description": "Coordinated building performance verification and third-party testing across multiple systems — managing test preparation, deficiency tracking, remediation sequencing, and sign-off documentation in alignment with owner and GC requirements. Applied structured closeout discipline to ensure all systems met performance specifications before handoff, directly supporting commissioning readiness and reducing post-occupancy risk.",
+          "metrics": [
+            {"label": "Testing Authority", "value": "Third-Party"},
+            {"label": "Deficiency Resolution", "value": "Tracked to Close"}
           ]
         }
       ]

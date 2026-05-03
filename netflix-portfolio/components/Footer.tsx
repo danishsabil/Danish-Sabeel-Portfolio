@@ -50,7 +50,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white">Danish Sabeel</h3>
-                <p className="text-sm text-gray-400">Assistant PM • Facades & Curtain Walls</p>
+                <p className="text-sm text-gray-400">Assistant PM • Building Systems & Construction Technology</p>
               </div>
             </Link>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed">

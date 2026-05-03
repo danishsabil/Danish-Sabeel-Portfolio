@@ -14,7 +14,9 @@ export default function AboutPage() {
     "Stakeholder Communication", "Vendor Coordination", "Quality Control",
     "Schedule Management", "Cost Control", "Risk Assessment", "Team Leadership",
     "Technical Documentation", "Process Improvement", "Client Relations",
-    "Logistics", "Takeoff", "RFI/CO/NCR Management"
+    "Logistics", "Takeoff", "RFI/CO/NCR Management",
+    "Procore", "BIM 360", "Bluebeam", "MEP Coordination", "Commissioning Support",
+    "Building Envelope Performance", "AI Workflow Integration", "Construction Technology"
   ]
 
   const achievements = [
@@ -58,10 +60,10 @@ export default function AboutPage() {
                   Danish <span className="text-gradient">Sabeel</span>
                 </h1>
                 <p className="text-sm text-gray-400 mb-4 font-medium">
-                  Architect | Construction Manager | Facade and Curtain Walls
+                  Construction Project Manager | Building Systems & Critical Infrastructure
                 </p>
                 <p className="text-base md:text-lg text-gray-300 mb-6 leading-relaxed max-w-lg">
-                  Project Management professional with architecture and construction management expertise, delivering projects from $2M to $50M across the U.S. and India. Currently Assistant Project Manager at Island Exterior Fabricators, specializing in façade and curtain wall systems.
+                  Project Management professional with architecture and construction management expertise, delivering projects from $2M to $50M across the U.S. and India. Experienced in building envelope systems, multi-trade field coordination, and AI-integrated project workflows — with a track record spanning subcontractor, GC, and owner-side delivery environments.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-8">
                   <div className="flex items-center gap-2 text-gray-300">
@@ -129,7 +131,7 @@ export default function AboutPage() {
                   Project Management professional with a foundation in architecture and construction management, experienced in delivering projects ranging from $2M to $50M across the U.S. and India. Skilled in scheduling, procurement, estimation, subcontractor management, and stakeholder coordination, I bring a balanced perspective from both design and field execution.
                 </p>
                 <p>
-                  Currently an Assistant Project Manager at Island Exterior Fabricators, I support large-scale curtain wall projects by managing schedules, logistics, RFIs, change orders, and design-assist coordination. Previously, I led residential and commercial projects in India, overseeing subcontractor teams of 10–20 while driving efficiency through lean construction practices and delivering projects on time and within budget.
+                  Currently an Assistant Project Manager at Island Exterior Fabricators, I manage schedules, logistics, RFIs, change orders, third-party testing coordination, and closeout documentation across complex, multi-system building projects. I apply AI-assisted workflows to maintain rigorous project records and surface critical path risks before they impact delivery.
                 </p>
                 <p>
                   I hold a Master&apos;s in Project Management from Boston University (GPA: 3.6) and a Bachelor&apos;s in Architecture from Aayojan School of Architecture, along with certifications in CAPM (PMI), Scrum Master (Scrum Inc.), and Construction Management (Scheduling & Estimation). I focus on developing practical solutions that align design intent with on-site realities, ensuring projects run efficiently and meet client expectations.
